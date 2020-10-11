@@ -28,6 +28,8 @@ public class ImpactMeterDiagnosticProvider {
     }
 
     public func start() {
+        createReportDirectoryIfNeeded()
+
         let existingURLs = existingLogURLs
 
         if reportingEnabled == false {
@@ -45,6 +47,20 @@ public class ImpactMeterDiagnosticProvider {
         ImpactMonitor.shared().start(with: logURL, identifier: identifier)
 
         reportExistingLogs(with: existingURLs)
+    }
+
+    private func createReportDirectoryIfNeeded() {
+        let url = reportDirectoryURL
+
+        if FileManager.default.fileExists(atPath: url.path, isDirectory: nil) {
+            return
+        }
+
+        do {
+            try FileManager.default.createDirectory(at: url, withIntermediateDirectories: true, attributes: nil)
+        } catch {
+            os_log("failed to create reporting directory: %{public}@ ", log: self.logger, type: .fault, String(describing: error))
+        }
     }
 
     private func reportExistingLogs(with URLs: [URL]) {
