@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Impact",
+        "repositoryURL": "https://github.com/ChimeHQ/Impact.git",
+        "state": {
+          "branch": "main",
+          "revision": "64297698f4f6b0027e2e7699cab630b8b9c6b5b7",
+          "version": null
+        }
+      },
+      {
+        "package": "Meter",
+        "repositoryURL": "https://github.com/ChimeHQ/Meter",
+        "state": {
+          "branch": "main",
+          "revision": "e06f349aaa45de1f89509dc0ef1e991b914e0442",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
