@@ -27,6 +27,10 @@ public class ImpactMeterDiagnosticProvider {
         return URL(fileURLWithPath: NSTemporaryDirectory(), isDirectory: true)
     }
 
+    private var impactReportedEnabled: Bool {
+        return MeterPayloadManager.metricKitDiagnosticsSupported == false
+    }
+
     public func start() {
         createReportDirectoryIfNeeded()
 
@@ -40,13 +44,19 @@ public class ImpactMeterDiagnosticProvider {
             return
         }
 
+        startImpactIfNeeded()
+
+        reportExistingLogs(with: existingURLs)
+    }
+
+    private func startImpactIfNeeded() {
+        guard impactReportedEnabled else { return }
+
         let idString = identifier.uuidString
 
         let logURL = reportDirectoryURL.appendingPathComponent(idString, isDirectory: false).appendingPathExtension("impactlog")
 
         ImpactMonitor.shared().start(with: logURL, identifier: identifier)
-
-        reportExistingLogs(with: existingURLs)
     }
 
     private func createReportDirectoryIfNeeded() {

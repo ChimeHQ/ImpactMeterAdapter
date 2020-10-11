@@ -6,7 +6,7 @@
         "repositoryURL": "https://github.com/ChimeHQ/Impact",
         "state": {
           "branch": "main",
-          "revision": "64297698f4f6b0027e2e7699cab630b8b9c6b5b7",
+          "revision": "bfb878b22f37c7279a0e59c84ecf9e5a30a63bee",
           "version": null
         }
       },
@@ -15,7 +15,7 @@
         "repositoryURL": "https://github.com/ChimeHQ/Meter",
         "state": {
           "branch": "main",
-          "revision": "301042be32b9545774c722c28d249cc4428173e9",
+          "revision": "981a6a10095078b4abf79f479d37bbe10d89d57d",
           "version": null
         }
       }
