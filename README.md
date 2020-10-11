@@ -16,9 +16,34 @@ dependencies: [
 
 ## What It Does
 
-ImpactMeterAdapter translates Impact crash reports into a form that conforms to `Meter.DiagnosticPayloadProtocol`, and delivers them via `MeterPayloadManager`. On platforms where `MXCrashDiagnostic` is supported, Impact will not be initialized. This gives you a way to transparently make use of MetricKit crash reporting when available, and Impact-based reporting when it is not.
+ImpactMeterAdapter gives you `MXCrashDiagnostic` payload when running on a supported platform/OS, and emulated payloads derived from Impact reports for backwards compatibility. When `MXCrashDiagnostic` is supported, Impact is not initialized. This gives you an easy way to interact with a consistent interface, as the (hopeful) migration towards `MXCrashDiagnostic` progresses.
 
-Not that this conversion process is **lossy**. `MXCrashDiagnostic` does not support of the types of information that crash reporters typically capture. In particular, you loose access to `NSException` details, as well as thread/queue names.
+ImpactMeterAdapter supports macOS 10.13+, iOS 12.0+, and tvOS 12.0+.
+
+## Getting Started
+
+```
+import ImpactMeterAdapter
+
+class ExampleSubscriber {
+    init() {
+        MeterPayloadManager.shared.add(self)
+
+        // Configure Impact here, if needed
+
+        ImpactMeterDiagnosticProvider.shared.start()
+    }
+}
+
+extension ExampleSubscriber: MeterPayloadSubscriber {
+    func didReceive(_ payloads: [DiagnosticPayloadProtocol]) {
+        // Here you will receive MXCrashDiagnostics when supported, or
+        // an equivalent Impact-based version otherwise.
+    }
+}
+```
+
+For actually transmitting data back to a server, check out [Wells](https://github.com/ChimeHQ/Wells).
 
 ## Suggestions or Feedback
 
