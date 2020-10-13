@@ -22,7 +22,7 @@ ImpactMeterAdapter supports macOS 10.13+, iOS 12.0+, and tvOS 12.0+.
 
 ## Getting Started
 
-```
+```swift
 import ImpactMeterAdapter
 
 class ExampleSubscriber {
