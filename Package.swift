@@ -9,8 +9,8 @@ let package = Package(
         .library(name: "ImpactMeterAdapter", targets: ["ImpactMeterAdapter"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/ChimeHQ/Meter", .branch("main")),
-        .package(url: "https://github.com/ChimeHQ/Impact.git", .branch("main")),
+        .package(url: "https://github.com/ChimeHQ/Meter", from: "0.2.0"),
+        .package(url: "https://github.com/ChimeHQ/Impact.git", from: "0.3.1"),
     ],
     targets: [
         .target(name: "ImpactMeterAdapter", dependencies: ["Impact", "Meter"], path: "ImpactMeterAdapter/"),
