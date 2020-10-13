@@ -135,7 +135,7 @@ class ImpactCrashDiagnostic: CrashDiagnosticProtocol {
                              applicationVersion: applicationVersion,
                              osVersion: osVersion ?? "",
                              platformArchitecture: log.environment?.architecture ?? "",
-                             regionFormat: "",
+                             regionFormat: log.environment?.region ?? "",
                              virtualMemoryRegionInfo: nil,
                              exceptionType: exceptionType?.intValue,
                              terminationReason: terminationReason,

@@ -15,7 +15,7 @@ class ImpactDiagnosticTests: XCTestCase {
     }
 
     func testDiagnosticPayloadTransformation() throws {
-        let url = try XCTUnwrap(crashLogURL(named: "signal_crash"))
+        let url = try XCTUnwrap(crashLogURL(named: "macos_signal_crash"))
         let payload = try ImpactDiagnosticPayload(contentsOf: url)
 
         XCTAssertEqual(payload.crashDiagnostics?.count, 1)
@@ -23,10 +23,10 @@ class ImpactDiagnosticTests: XCTestCase {
         let diagnostic = try XCTUnwrap(payload.crashDiagnostics?[0])
 
         XCTAssertEqual(diagnostic.metaData.applicationBuildVersion, "1")
-        XCTAssertEqual(diagnostic.metaData.deviceType, "ADP3,2")
-        XCTAssertEqual(diagnostic.metaData.osVersion, "macOS 11.0.0 (20A5299w)")
-        XCTAssertEqual(diagnostic.metaData.platformArchitecture, "arm64")
-//        XCTAssertEqual(diagnostic.metaData.regionFormat, "CA")
+        XCTAssertEqual(diagnostic.metaData.deviceType, "MacBookPro15,2")
+        XCTAssertEqual(diagnostic.metaData.osVersion, "macOS 10.15.7 (19H2)")
+        XCTAssertEqual(diagnostic.metaData.platformArchitecture, "x86_64")
+        XCTAssertEqual(diagnostic.metaData.regionFormat, "CA")
         XCTAssertNil(diagnostic.virtualMemoryRegionInfo)
         XCTAssertEqual(diagnostic.applicationVersion, "1.0")
         XCTAssertEqual(diagnostic.terminationReason, "Namespace SIGNAL, Code 0x6")
@@ -48,20 +48,20 @@ class ImpactDiagnosticTests: XCTestCase {
         XCTAssertEqual(frames.count, 18)
 
         XCTAssertEqual(frames[0].sampleCount, 1)
-        XCTAssertEqual(frames[0].binaryUUID, UUID(uuidString: "FE013604-05CD-3D10-99AD-E9BD1C0945AA"))
+        XCTAssertEqual(frames[0].binaryUUID, UUID(uuidString: "A576A1CF-7726-3146-B04B-A26E1CDB9757"))
         XCTAssertEqual(frames[0].binaryName, "libsystem_kernel.dylib")
-        XCTAssertEqual(frames[0].address, 0x1d465b5d0)
-        XCTAssertEqual(frames[0].offsetIntoBinaryTextSegment, 0x95D0)
+        XCTAssertEqual(frames[0].address, 0x7fff7153333a)
+        XCTAssertEqual(frames[0].offsetIntoBinaryTextSegment, 0x733A)
 
         XCTAssertEqual(frames[17].sampleCount, 1)
-        XCTAssertEqual(frames[17].binaryUUID, UUID(uuidString: "F32B02E1-CA2F-3BEA-9A8E-F21B4ACB6095"))
+        XCTAssertEqual(frames[17].binaryUUID, UUID(uuidString: "789A18C2-8AC7-3C88-813D-CD674376585D"))
         XCTAssertEqual(frames[17].binaryName, "libdyld.dylib")
-        XCTAssertEqual(frames[17].address, 0x1d44ea844)
-        XCTAssertEqual(frames[17].offsetIntoBinaryTextSegment, 0x16844)
+        XCTAssertEqual(frames[17].address, 0x7fff713ebcc9)
+        XCTAssertEqual(frames[17].offsetIntoBinaryTextSegment, 0x1ACC9)
     }
 
     func testParsingImpactJSONOuput() throws {
-        let url = try XCTUnwrap(crashLogURL(named: "signal_crash"))
+        let url = try XCTUnwrap(crashLogURL(named: "macos_signal_crash"))
         let impactPayload = try ImpactDiagnosticPayload(contentsOf: url)
         let jsonData = impactPayload.jsonRepresentation()
 

@@ -5,18 +5,18 @@
         "package": "Impact",
         "repositoryURL": "https://github.com/ChimeHQ/Impact",
         "state": {
-          "branch": "main",
-          "revision": "bfb878b22f37c7279a0e59c84ecf9e5a30a63bee",
-          "version": null
+          "branch": null,
+          "revision": "d25066ed4c48f8062dfdcda0c1db28e4daab7c3e",
+          "version": "0.3.1"
         }
       },
       {
         "package": "Meter",
         "repositoryURL": "https://github.com/ChimeHQ/Meter",
         "state": {
-          "branch": "main",
+          "branch": null,
           "revision": "898fc43f5344fb43d36c181e043f6fc4da08b8c4",
-          "version": null
+          "version": "0.2.0"
         }
       }
     ]

@@ -35,6 +35,15 @@ public struct ImpactApplication {
     }
 }
 
+extension Date {
+    init?(millisecondsSinceEpochHexString string: String) {
+        guard let intValue = Int(hexString: string) else {
+            return nil
+        }
+
+        self.init(timeIntervalSince1970: Double(intValue) / 1000.0)
+    }
+}
 /// Host Environment Details
 ///
 /// example:
@@ -47,6 +56,8 @@ public struct ImpactEnvironment {
     public var osBuild: String?
     public var osVersion: String?
     public var model: String?
+    public var region: String?
+    public var startDate: Date?
 
     public init?(with line: Substring) {
         guard let entry = ImpactLog.entryDictionary(from: line, with: ImpactEnvironment.prefix) else { return nil }
@@ -56,6 +67,9 @@ public struct ImpactEnvironment {
         self.osBuild = entry["os_build"]
         self.osVersion = entry["os_version"]
         self.model = entry["model"].flatMap({ $0.asBase64EncodedString() })
+        self.region = entry["region"]
+
+        self.startDate = entry["time"].flatMap({ Date(millisecondsSinceEpochHexString: $0) })
     }
 }
 

@@ -17,7 +17,9 @@
 		C964F5B725337E1500E3519D /* ImpactLogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C964F5B125337E1500E3519D /* ImpactLogTests.swift */; };
 		C964F5B825337E1500E3519D /* ImpactDiagnosticTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C964F5B225337E1500E3519D /* ImpactDiagnosticTests.swift */; };
 		C964F5BA25337E1500E3519D /* noncrash.impactlog in Resources */ = {isa = PBXBuildFile; fileRef = C964F5B525337E1500E3519D /* noncrash.impactlog */; };
-		C964F5BB25337E1500E3519D /* signal_crash.impactlog in Resources */ = {isa = PBXBuildFile; fileRef = C964F5B625337E1500E3519D /* signal_crash.impactlog */; };
+		C9B815262535ED050034092A /* macos_mach_exception_crash.impactlog in Resources */ = {isa = PBXBuildFile; fileRef = C9B815232535ED050034092A /* macos_mach_exception_crash.impactlog */; };
+		C9B815272535ED050034092A /* macos_uncaught_nsexception_crash.impactlog in Resources */ = {isa = PBXBuildFile; fileRef = C9B815242535ED050034092A /* macos_uncaught_nsexception_crash.impactlog */; };
+		C9B815282535ED050034092A /* macos_signal_crash.impactlog in Resources */ = {isa = PBXBuildFile; fileRef = C9B815252535ED050034092A /* macos_signal_crash.impactlog */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,9 +44,11 @@
 		C964F5B125337E1500E3519D /* ImpactLogTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImpactLogTests.swift; sourceTree = "<group>"; };
 		C964F5B225337E1500E3519D /* ImpactDiagnosticTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImpactDiagnosticTests.swift; sourceTree = "<group>"; };
 		C964F5B525337E1500E3519D /* noncrash.impactlog */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = noncrash.impactlog; sourceTree = "<group>"; };
-		C964F5B625337E1500E3519D /* signal_crash.impactlog */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = signal_crash.impactlog; sourceTree = "<group>"; };
 		C964F5CF253382E200E3519D /* ImpactMeterAdapter.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = ImpactMeterAdapter.xcconfig; sourceTree = "<group>"; };
 		C964F5DF2533842A00E3519D /* ImpactMeterAdapterTests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = ImpactMeterAdapterTests.xcconfig; sourceTree = "<group>"; };
+		C9B815232535ED050034092A /* macos_mach_exception_crash.impactlog */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = macos_mach_exception_crash.impactlog; sourceTree = "<group>"; };
+		C9B815242535ED050034092A /* macos_uncaught_nsexception_crash.impactlog */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = macos_uncaught_nsexception_crash.impactlog; sourceTree = "<group>"; };
+		C9B815252535ED050034092A /* macos_signal_crash.impactlog */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = macos_signal_crash.impactlog; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,9 +106,9 @@
 		C964F58E25337D4000E3519D /* ImpactMeterAdapterTests */ = {
 			isa = PBXGroup;
 			children = (
+				C964F5B425337E1500E3519D /* Resources */,
 				C964F5B225337E1500E3519D /* ImpactDiagnosticTests.swift */,
 				C964F5B125337E1500E3519D /* ImpactLogTests.swift */,
-				C964F5B425337E1500E3519D /* Resources */,
 				C964F59125337D4000E3519D /* Info.plist */,
 				C964F5DF2533842A00E3519D /* ImpactMeterAdapterTests.xcconfig */,
 			);
@@ -115,7 +119,9 @@
 			isa = PBXGroup;
 			children = (
 				C964F5B525337E1500E3519D /* noncrash.impactlog */,
-				C964F5B625337E1500E3519D /* signal_crash.impactlog */,
+				C9B815232535ED050034092A /* macos_mach_exception_crash.impactlog */,
+				C9B815252535ED050034092A /* macos_signal_crash.impactlog */,
+				C9B815242535ED050034092A /* macos_uncaught_nsexception_crash.impactlog */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -227,7 +233,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C964F5BB25337E1500E3519D /* signal_crash.impactlog in Resources */,
+				C9B815282535ED050034092A /* macos_signal_crash.impactlog in Resources */,
+				C9B815272535ED050034092A /* macos_uncaught_nsexception_crash.impactlog in Resources */,
+				C9B815262535ED050034092A /* macos_mach_exception_crash.impactlog in Resources */,
 				C964F5BA25337E1500E3519D /* noncrash.impactlog in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,16 +490,16 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ChimeHQ/Meter";
 			requirement = {
-				branch = main;
-				kind = branch;
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
 			};
 		};
 		C964F5AC25337DF700E3519D /* XCRemoteSwiftPackageReference "Impact" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ChimeHQ/Impact";
 			requirement = {
-				branch = main;
-				kind = branch;
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.1;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

@@ -1,0 +1,417 @@
+[Application] id: Y29tLmNoaW1laHEuSW1wYWN0VGVzdE1hYw==, org_id: <none>, version: MQ==, short_version: MS4w
+[Environment] platform: macOS, arch: x86_64, report_id: c3085289cc6c4969bb285f1c4abf575b, install_id: <none>, os_build: 19H2, model: TWFjQm9va1BybzE1LDI=, os_version: 10.15.7, translated: false, region: CA, time: 0x175224b4e50, impact_version: 0x6
+[Log:INFO] waiting on mach exception 9f4
+[Log:INFO] preexisting mach exception handler 1 - 1000, 80000003
+[Binary:Load] path: /Users/matt/Library/Developer/Xcode/DerivedData/Impact-gqratpmosgriurgqtldakjrbmxtq/Build/Products/Debug/ImpactTestMac.app/Contents/MacOS/ImpactTestMac, address: 0x10a5d2000, size: 0x10000, slide: 0xa5d2000, uuid: 19fbd415daf435d3abc5f3b975f97ae4
+[Binary:Load] path: /Users/matt/Library/Developer/Xcode/DerivedData/Impact-gqratpmosgriurgqtldakjrbmxtq/Build/Products/Debug/ImpactTestMac.app/Contents/Frameworks/Impact.framework/Versions/A/Impact, address: 0x10a601000, size: 0x10000, slide: 0x10a601000, uuid: 98c30be6d1d43fab921092b924013bf6
+[Binary:Load] path: /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation, address: 0x7fff399b5000, size: 0x3c6000, slide: 0xa22d000, uuid: 7c69f845f651319382625938010ec67d
+[Binary:Load] path: /usr/lib/libobjc.A.dylib, address: 0x7fff70230000, size: 0x34000, slide: 0xa22d000, uuid: 6df811605e7f3e31aa1ec875e3b98af6
+[Binary:Load] path: /usr/lib/libc++.1.dylib, address: 0x7fff6e6b6000, size: 0x53000, slide: 0xa22d000, uuid: 59a8239fc28a3b59b8fa11340dc85edc
+[Binary:Load] path: /usr/lib/libSystem.B.dylib, address: 0x7fff6e3d0000, size: 0x2000, slide: 0xa22d000, uuid: 0a6c8ba130fd3d1083fdff29e221affe
+[Binary:Load] path: /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit, address: 0x7fff345ab000, size: 0xdc1000, slide: 0xa22d000, uuid: a64d10a6fe1739ce93926615be54e10e
+[Binary:Load] path: /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation, address: 0x7fff372f8000, size: 0x480000, slide: 0xa22d000, uuid: c0d70026edbe3cbdb317367cf4f1c92f
+[Binary:Load] path: /usr/lib/swift/libswiftAppKit.dylib, address: 0x7fff709d5000, size: 0x17000, slide: 0xa22d000, uuid: 188022609efc3e31b9ea7767a8b6ab52
+[Binary:Load] path: /usr/lib/swift/libswiftCloudKit.dylib, address: 0x7fff709f5000, size: 0x10000, slide: 0xa22d000, uuid: 18b281d8e7d839979b6c5d2c5f7edeab
+[Binary:Load] path: /usr/lib/swift/libswiftCore.dylib, address: 0x7fff70a15000, size: 0x3b6000, slide: 0xa22d000, uuid: e56ccfca99e136e5a6bcf31f53c79910
+[Binary:Load] path: /usr/lib/swift/libswiftCoreData.dylib, address: 0x7fff70dd7000, size: 0x9000, slide: 0xa22d000, uuid: 5188e034fc7d3c6ba42a69375097e05b
+[Binary:Load] path: /usr/lib/swift/libswiftCoreFoundation.dylib, address: 0x7fff70de0000, size: 0x3000, slide: 0xa22d000, uuid: fba4566bad2b35d7bc9a48be3d88b658
+[Binary:Load] path: /usr/lib/swift/libswiftCoreGraphics.dylib, address: 0x7fff70de3000, size: 0xe000, slide: 0xa22d000, uuid: a8225b5ff64d32f8ad91d919df614aa0
+[Binary:Load] path: /usr/lib/swift/libswiftCoreImage.dylib, address: 0x7fff70df1000, size: 0x4000, slide: 0xa22d000, uuid: 1485e8efeda9398184d7df3bfe361929
+[Binary:Load] path: /usr/lib/swift/libswiftCoreLocation.dylib, address: 0x7fff70df5000, size: 0x6000, slide: 0xa22d000, uuid: 3732d3f09586372e82b02c76f401b793
+[Binary:Load] path: /usr/lib/swift/libswiftDarwin.dylib, address: 0x7fff70e4f000, size: 0x7000, slide: 0xa22d000, uuid: f36846848258310fb05bbd8a696f0f29
+[Binary:Load] path: /usr/lib/swift/libswiftDispatch.dylib, address: 0x7fff70e56000, size: 0x18000, slide: 0xa22d000, uuid: 94d67ef442b53f548d86b6b2b16827dc
+[Binary:Load] path: /usr/lib/swift/libswiftFoundation.dylib, address: 0x7fff70e6e000, size: 0x186000, slide: 0xa22d000, uuid: 0173898dfda6378d87e91f2a9bd227d3
+[Binary:Load] path: /usr/lib/swift/libswiftIOKit.dylib, address: 0x7fff71002000, size: 0x3000, slide: 0xa22d000, uuid: fd313708ae483c72a15453ec839a8d55
+[Binary:Load] path: /usr/lib/swift/libswiftMetal.dylib, address: 0x7fff7101a000, size: 0x8000, slide: 0xa22d000, uuid: b3c74138de3c36769983f12757819c9c
+[Binary:Load] path: /usr/lib/swift/libswiftObjectiveC.dylib, address: 0x7fff7109d000, size: 0x4000, slide: 0xa22d000, uuid: e668bd5de1d63c21ba7e5c3a672a964e
+[Binary:Load] path: /usr/lib/swift/libswiftQuartzCore.dylib, address: 0x7fff710b2000, size: 0x6000, slide: 0xa22d000, uuid: 101d3e4d231a3cd897b44e37f4081cd2
+[Binary:Load] path: /usr/lib/swift/libswiftXPC.dylib, address: 0x7fff711a1000, size: 0x3000, slide: 0xa22d000, uuid: 3cd547c3708237eab289f6ba6c4d4e26
+[Binary:Load] path: /usr/lib/libauto.dylib, address: 0x7fff6e5d2000, size: 0x1000, slide: 0xa22d000, uuid: b6124448769034ae8939ed84aac630ce
+[Binary:Load] path: /usr/lib/libfakelink.dylib, address: 0x7fff6f188000, size: 0x3000, slide: 0xa22d000, uuid: 36146cb2e6a537bb9ee81b4034d8f3ad
+[Binary:Load] path: /usr/lib/libcompression.dylib, address: 0x7fff6e732000, size: 0x18000, slide: 0xa22d000, uuid: 64c91066586d38c0a2f33e60a940f859
+[Binary:Load] path: /System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration, address: 0x7fff39674000, size: 0x7000, slide: 0xa22d000, uuid: 0bbbb6a6604d368b994350b8ce75d51d
+[Binary:Load] path: /usr/lib/libarchive.2.dylib, address: 0x7fff6e4c2000, size: 0x73000, slide: 0xa22d000, uuid: ac311fbaf2dd3595aa76769f912942b8
+[Binary:Load] path: /usr/lib/libDiagnosticMessagesClient.dylib, address: 0x7fff6defa000, size: 0x3000, slide: 0xa22d000, uuid: c94f3b7b185438eb9778834501c53b3f
+[Binary:Load] path: /usr/lib/libicucore.A.dylib, address: 0x7fff6f29a000, size: 0x258000, slide: 0xa22d000, uuid: 8ac2cb07e7e0340da849186fa1f27251
+[Binary:Load] path: /usr/lib/libxml2.2.dylib, address: 0x7fff707fd000, size: 0xe3000, slide: 0xa22d000, uuid: a579d1582e09316c872edd9d93401b2f
+[Binary:Load] path: /usr/lib/libz.1.dylib, address: 0x7fff7090c000, size: 0x13000, slide: 0xa22d000, uuid: 793d9643cd833aac8b9688d548fab620
+[Binary:Load] path: /System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration, address: 0x7fff44d00000, size: 0x7b000, slide: 0xa22d000, uuid: 84f9b3bbf7af3b7c8cd0d3c22d19619f
+[Binary:Load] path: /System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices, address: 0x7fff386e0000, size: 0x1000, slide: 0xa22d000, uuid: aa140158e90934c2b2f520ebc93e0056
+[Binary:Load] path: /usr/lib/liblangid.dylib, address: 0x7fff6f50b000, size: 0x2000, slide: 0xa22d000, uuid: 30cfc08cef363cf58aeac1cb070306b7
+[Binary:Load] path: /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit, address: 0x7fff3a0ee000, size: 0xa5000, slide: 0xa22d000, uuid: 142233876f81397686054bc2f253a93e
+[Binary:Load] path: /usr/lib/libCRFSuite.dylib, address: 0x7fff6de2d000, size: 0x35000, slide: 0xa22d000, uuid: 5e5de3cb30dd34dcaef8fe8536a85e96
+[Binary:Load] path: /System/Library/Frameworks/CFNetwork.framework/Versions/A/CFNetwork, address: 0x7fff35b67000, size: 0x390000, slide: 0xa22d000, uuid: 07f9ca9cb9543ea0a7103122bff9f057
+[Binary:Load] path: /usr/lib/libc++abi.dylib, address: 0x7fff6e709000, size: 0x16000, slide: 0xa22d000, uuid: e692f14fc65e303b9921bb7e97d77855
+[Binary:Load] path: /usr/lib/system/libcache.dylib, address: 0x7fff711cd000, size: 0x6000, slide: 0xa22d000, uuid: af488d139e8935e0b078be37cc5b8586
+[Binary:Load] path: /usr/lib/system/libcommonCrypto.dylib, address: 0x7fff711d3000, size: 0xc000, slide: 0xa22d000, uuid: c7912be5993e3581b2a06aabdc8c5562
+[Binary:Load] path: /usr/lib/system/libcompiler_rt.dylib, address: 0x7fff711df000, size: 0x8000, slide: 0xa22d000, uuid: 49b8f64457053f16bbe06fff9b17c36e
+[Binary:Load] path: /usr/lib/system/libcopyfile.dylib, address: 0x7fff711e7000, size: 0xa000, slide: 0xa22d000, uuid: 3c48122521e7370aa30e0ccfdd64a92c
+[Binary:Load] path: /usr/lib/system/libcorecrypto.dylib, address: 0x7fff711f1000, size: 0x93000, slide: 0xa22d000, uuid: 60567bf880fa359ab2f3a3baefb288fd
+[Binary:Load] path: /usr/lib/system/libdispatch.dylib, address: 0x7fff71390000, size: 0x41000, slide: 0xa22d000, uuid: cd9c059c91d930e889265b9cd0d5d4f5
+[Binary:Load] path: /usr/lib/system/libdyld.dylib, address: 0x7fff713d1000, size: 0x37000, slide: 0xa22d000, uuid: 789a18c28ac73c88813dcd674376585d
+[Binary:Load] path: /usr/lib/system/libkeymgr.dylib, address: 0x7fff71408000, size: 0x1000, slide: 0xa22d000, uuid: db3337be01ca3425bd0c87774fc0cdc0
+[Binary:Load] path: /usr/lib/system/liblaunch.dylib, address: 0x7fff71416000, size: 0x1000, slide: 0xa22d000, uuid: afbcbdd30b553ecd8e04a73a3a57356b
+[Binary:Load] path: /usr/lib/system/libmacho.dylib, address: 0x7fff71417000, size: 0x6000, slide: 0xa22d000, uuid: aa613a9c961a3b67b6964622fa59fc4e
+[Binary:Load] path: /usr/lib/system/libquarantine.dylib, address: 0x7fff7141d000, size: 0x3000, slide: 0xa22d000, uuid: f234e51dfd0b3ee4b679ae3ee9c536c3
+[Binary:Load] path: /usr/lib/system/libremovefile.dylib, address: 0x7fff71420000, size: 0x2000, slide: 0xa22d000, uuid: 7c7efc79bd2433efb07306aed234593e
+[Binary:Load] path: /usr/lib/system/libsystem_asl.dylib, address: 0x7fff71422000, size: 0x18000, slide: 0xa22d000, uuid: 1563ee0206573b7899bea947c24122ef
+[Binary:Load] path: /usr/lib/system/libsystem_blocks.dylib, address: 0x7fff7143a000, size: 0x1000, slide: 0xa22d000, uuid: 0d53847eaf5f3acfb51fa15dea4dec58
+[Binary:Load] path: /usr/lib/system/libsystem_c.dylib, address: 0x7fff7143b000, size: 0x88000, slide: 0xa22d000, uuid: bbded5e6a6463eedb33a91e4331ea063
+[Binary:Load] path: /usr/lib/system/libsystem_configuration.dylib, address: 0x7fff714c3000, size: 0x4000, slide: 0xa22d000, uuid: 0ee84c3364fd372b974aaf7a136f2068
+[Binary:Load] path: /usr/lib/system/libsystem_coreservices.dylib, address: 0x7fff714c7000, size: 0x4000, slide: 0xa22d000, uuid: a199156e058d3abbbce94b9f20dced0f
+[Binary:Load] path: /usr/lib/system/libsystem_darwin.dylib, address: 0x7fff714cb000, size: 0x9000, slide: 0xa22d000, uuid: 5b12b5db3f3037c18ecc49a66b1f2864
+[Binary:Load] path: /usr/lib/system/libsystem_dnssd.dylib, address: 0x7fff714d4000, size: 0x8000, slide: 0xa22d000, uuid: ebb4c2c2e0313094b40ae67bf261d295
+[Binary:Load] path: /usr/lib/system/libsystem_featureflags.dylib, address: 0x7fff714dc000, size: 0x2000, slide: 0xa22d000, uuid: 29fd922aec2c3f25bcccb58d716e60ec
+[Binary:Load] path: /usr/lib/system/libsystem_info.dylib, address: 0x7fff714de000, size: 0x4e000, slide: 0xa22d000, uuid: 8a3216055480330baf9e64e65de61747
+[Binary:Load] path: /usr/lib/system/libsystem_m.dylib, address: 0x7fff71559000, size: 0x48000, slide: 0xa22d000, uuid: 00f331f10d0939b387361fe90e64e903
+[Binary:Load] path: /usr/lib/system/libsystem_malloc.dylib, address: 0x7fff715a1000, size: 0x28000, slide: 0xa22d000, uuid: 8549294e4c5336eb99f3584a7393d8d5
+[Binary:Load] path: /usr/lib/system/libsystem_networkextension.dylib, address: 0x7fff715c9000, size: 0xe000, slide: 0xa22d000, uuid: f06c65c52cbe313c96e1a09240f9fe57
+[Binary:Load] path: /usr/lib/system/libsystem_notify.dylib, address: 0x7fff715d7000, size: 0xa000, slide: 0xa22d000, uuid: fa22f928d91b3aa596bb3186ac0fb264
+[Binary:Load] path: /usr/lib/system/libsystem_sandbox.dylib, address: 0x7fff715f5000, size: 0x5000, slide: 0xa22d000, uuid: 051c401843453034ac986de42fb8273b
+[Binary:Load] path: /usr/lib/system/libsystem_secinit.dylib, address: 0x7fff715fa000, size: 0x3000, slide: 0xa22d000, uuid: f80872aae1fd3d7e8729467656ec6561
+[Binary:Load] path: /usr/lib/system/libsystem_kernel.dylib, address: 0x7fff7152c000, size: 0x2d000, slide: 0xa22d000, uuid: a576a1cf77263146b04ba26e1cdb9757
+[Binary:Load] path: /usr/lib/system/libsystem_platform.dylib, address: 0x7fff715e1000, size: 0x9000, slide: 0xa22d000, uuid: 009a7c1f313a318eb9f230f4c06fea5c
+[Binary:Load] path: /usr/lib/system/libsystem_pthread.dylib, address: 0x7fff715ea000, size: 0xb000, slide: 0xa22d000, uuid: 62cb1a980b8f31e7a02ba1139927f61d
+[Binary:Load] path: /usr/lib/system/libsystem_symptoms.dylib, address: 0x7fff715fd000, size: 0x8000, slide: 0xa22d000, uuid: 5820a2afce723ab3abcc273a3419fb55
+[Binary:Load] path: /usr/lib/system/libsystem_trace.dylib, address: 0x7fff71605000, size: 0x17000, slide: 0xa22d000, uuid: 04b47629847b3d748abec05ef9deefe4
+[Binary:Load] path: /usr/lib/system/libunwind.dylib, address: 0x7fff7161d000, size: 0x6000, slide: 0xa22d000, uuid: 42b7b509bafe365b893a72414c92f5bf
+[Binary:Load] path: /usr/lib/system/libxpc.dylib, address: 0x7fff71623000, size: 0x36000, slide: 0xa22d000, uuid: 3e243a41030f38e39fd27b38c66c35b1
+[Binary:Load] path: /usr/lib/liblzma.5.dylib, address: 0x7fff6f50d000, size: 0x19000, slide: 0xa22d000, uuid: c131ef182cdd32718a30a8760d4fe166
+[Binary:Load] path: /System/Library/Frameworks/Security.framework/Versions/A/Security, address: 0x7fff43c4f000, size: 0x34a000, slide: 0xa22d000, uuid: b6f8368f2395379bb76871c53bb1b903
+[Binary:Load] path: /usr/lib/libenergytrace.dylib, address: 0x7fff6f161000, size: 0x1000, slide: 0xa22d000, uuid: 162dfcc08f483dd0914ffa8653e27b26
+[Binary:Load] path: /usr/lib/libbsm.0.dylib, address: 0x7fff6e698000, size: 0x11000, slide: 0xa22d000, uuid: 00bffb9a2ffe3c24896a251bc61917fd
+[Binary:Load] path: /usr/lib/system/libkxld.dylib, address: 0x7fff71409000, size: 0xd000, slide: 0xa22d000, uuid: ee8ecb4b2edb3440bbc16bdddf5f1bce
+[Binary:Load] path: /System/Library/PrivateFrameworks/AppleFSCompression.framework/Versions/A/AppleFSCompression, address: 0x7fff4ac3d000, size: 0x10000, slide: 0xa22d000, uuid: 466abd772e5236d18e3977ae2cc61611
+[Binary:Load] path: /usr/lib/libcoretls.dylib, address: 0x7fff6ea23000, size: 0x17000, slide: 0xa22d000, uuid: 770a5b96936e34e3b006b1cec299b5a5
+[Binary:Load] path: /usr/lib/libcoretls_cfhelpers.dylib, address: 0x7fff6ea3a000, size: 0x2000, slide: 0xa22d000, uuid: 940bf370fd0c30a8aa05ff48da44fa4c
+[Binary:Load] path: /usr/lib/libpam.2.dylib, address: 0x7fff70276000, size: 0x5000, slide: 0xa22d000, uuid: 0502f3958ee63d2a923906fd5622e19e
+[Binary:Load] path: /usr/lib/libsqlite3.dylib, address: 0x7fff703ab000, size: 0x1eb000, slide: 0xa22d000, uuid: 35a2bd9f4e3330dea9944ab585ac3afe
+[Binary:Load] path: /usr/lib/libxar.1.dylib, address: 0x7fff707ea000, size: 0xe000, slide: 0xa22d000, uuid: ee9644129e2530b3bcc0ccefbcc8094b
+[Binary:Load] path: /usr/lib/libbz2.1.0.dylib, address: 0x7fff6e6a9000, size: 0xd000, slide: 0xa22d000, uuid: 14cc4988b6d43879afc29a0ddc6388de
+[Binary:Load] path: /usr/lib/libiconv.2.dylib, address: 0x7fff6f1a9000, size: 0xf1000, slide: 0xa22d000, uuid: 18311a67e4ef3cc795b3c0edee3a282f
+[Binary:Load] path: /usr/lib/libcharset.1.dylib, address: 0x7fff6e71f000, size: 0x1000, slide: 0xa22d000, uuid: 72447768924439ab8e792fa14ec0ad33
+[Binary:Load] path: /usr/lib/libnetwork.dylib, address: 0x7fff6fd13000, size: 0x47d000, slide: 0xa22d000, uuid: ba294a54f309398db308f97032aff555
+[Binary:Load] path: /usr/lib/libpcap.A.dylib, address: 0x7fff7027d000, size: 0x37000, slide: 0xa22d000, uuid: a76ec076a8ea354cb95f7ab1eafbcc65
+[Binary:Load] path: /usr/lib/libapple_nghttp2.dylib, address: 0x7fff6e477000, size: 0x17000, slide: 0xa22d000, uuid: 07fec48a87cf32a38194fa70b361713a
+[Binary:Load] path: /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/FSEvents.framework/Versions/A/FSEvents, address: 0x7fff38a97000, size: 0x9000, slide: 0xa22d000, uuid: fc84db48a3ce30f7a918b3587731acc7
+[Binary:Load] path: /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/CarbonCore, address: 0x7fff38767000, size: 0x2e2000, slide: 0xa22d000, uuid: be37920699fa30cd83912708473a633f
+[Binary:Load] path: /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Metadata, address: 0x7fff38cdb000, size: 0x99000, slide: 0xa22d000, uuid: 0973f7e5d58c3574a3ce4f12cac2d4c7
+[Binary:Load] path: /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/OSServices.framework/Versions/A/OSServices, address: 0x7fff38d74000, size: 0x2e000, slide: 0xa22d000, uuid: 0e4f48ad402c3e9d9ca96dd9479b28f9
+[Binary:Load] path: /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/SearchKit.framework/Versions/A/SearchKit, address: 0x7fff38da2000, size: 0x68000, slide: 0xa22d000, uuid: 2c5e1d85e8b13dc591b9e3edb48e9369
+[Binary:Load] path: /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/AE, address: 0x7fff386e1000, size: 0x86000, slide: 0xa22d000, uuid: 2e5fd5ae8a7f353f9bd10241f3586181
+[Binary:Load] path: /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/LaunchServices, address: 0x7fff38aa0000, size: 0x23b000, slide: 0xa22d000, uuid: 9a5359d991483b18b86856a9da5fb60c
+[Binary:Load] path: /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/DictionaryServices, address: 0x7fff38a49000, size: 0x4e000, slide: 0xa22d000, uuid: 26b70c8225bc353a858f945b14c803a2
+[Binary:Load] path: /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/SharedFileList.framework/Versions/A/SharedFileList, address: 0x7fff38e0a000, size: 0x25000, slide: 0xa22d000, uuid: 02de0d56e3713ef59bc1fa435451b412
+[Binary:Load] path: /System/Library/Frameworks/NetFS.framework/Versions/A/NetFS, address: 0x7fff3dc9b000, size: 0xd000, slide: 0xa22d000, uuid: 4415f027d36d3b9c96baad22b44a4722
+[Binary:Load] path: /System/Library/PrivateFrameworks/NetAuth.framework/Versions/A/NetAuth, address: 0x7fff5e984000, size: 0xb000, slide: 0xa22d000, uuid: b0c03c4187a3352bb13096e1a6f94b47
+[Binary:Load] path: /System/Library/PrivateFrameworks/login.framework/Versions/A/Frameworks/loginsupport.framework/Versions/A/loginsupport, address: 0x7fff6b30d000, size: 0x3000, slide: 0xa22d000, uuid: 12f7788527dc38379ce9a25eba75f833
+[Binary:Load] path: /System/Library/PrivateFrameworks/TCC.framework/Versions/A/TCC, address: 0x7fff67c1a000, size: 0x11000, slide: 0xa22d000, uuid: 017ab27d6821303a8fd26dac795cc7aa
+[Binary:Load] path: /System/Library/PrivateFrameworks/CoreNLP.framework/Versions/A/CoreNLP, address: 0x7fff4f86e000, size: 0x6b000, slide: 0xa22d000, uuid: e70e25058078324ebae101a2da980e2c
+[Binary:Load] path: /System/Library/PrivateFrameworks/MetadataUtilities.framework/Versions/A/MetadataUtilities, address: 0x7fff5de81000, size: 0x4d000, slide: 0xa22d000, uuid: 0237323bec783fbf9fc75a1fe2b5ce25
+[Binary:Load] path: /usr/lib/libmecabra.dylib, address: 0x7fff6f5e5000, size: 0x263000, slide: 0xa22d000, uuid: e31de74d1b88377facd3d789d29c3ae7
+[Binary:Load] path: /System/Library/Frameworks/Accelerate.framework/Versions/A/Accelerate, address: 0x7fff32f7f000, size: 0x1000, slide: 0xa22d000, uuid: 4f9977aedbdb3a16a536ac1f9938dcdd
+[Binary:Load] path: /usr/lib/libmecab.dylib, address: 0x7fff6f53d000, size: 0xa8000, slide: 0xa22d000, uuid: 0d5bfd01d4a73c8daa69c329c1a69792
+[Binary:Load] path: /usr/lib/libgermantok.dylib, address: 0x7fff6f199000, size: 0x6000, slide: 0xa22d000, uuid: d2ae5ac0edce3216b8c9cf59292a545f
+[Binary:Load] path: /usr/lib/libThaiTokenizer.dylib, address: 0x7fff6e45e000, size: 0x2000, slide: 0xa22d000, uuid: 4f4ade990d093223b7c0c407ab6de8dc
+[Binary:Load] path: /usr/lib/libChineseTokenizer.dylib, address: 0x7fff6de64000, size: 0xb000, slide: 0xa22d000, uuid: 7f0da1831796315ab44a2c234c7c50be
+[Binary:Load] path: /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vImage.framework/Versions/A/vImage, address: 0x7fff32f97000, size: 0x657000, slide: 0xa22d000, uuid: ea6f5ff27a1b35d5a5a3d2b3386ecb75
+[Binary:Load] path: /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/vecLib, address: 0x7fff34401000, size: 0x1000, slide: 0xa22d000, uuid: f6c5613d2284342b91609731f78b4de5
+[Binary:Load] path: /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libvMisc.dylib, address: 0x7fff3433e000, size: 0xc3000, slide: 0xa22d000, uuid: 3601fde3b142398d987d8151a51f0a96
+[Binary:Load] path: /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libvDSP.dylib, address: 0x7fff34166000, size: 0x1d8000, slide: 0xa22d000, uuid: d63dc0a5b8b43562a574e73bc3b57407
+[Binary:Load] path: /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBLAS.dylib, address: 0x7fff335ee000, size: 0x268000, slide: 0xa22d000, uuid: c6c2d42f74563dbf8be29aa06efc78fd
+[Binary:Load] path: /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libLAPACK.dylib, address: 0x7fff33d2a000, size: 0x39c000, slide: 0xa22d000, uuid: 5e3e386750c33e6a9a2e007ce77a4641
+[Binary:Load] path: /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libLinearAlgebra.dylib, address: 0x7fff340c6000, size: 0x16000, slide: 0xa22d000, uuid: 3d433800009933e08c8115f83247b2c9
+[Binary:Load] path: /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libSparseBLAS.dylib, address: 0x7fff34153000, size: 0x13000, slide: 0xa22d000, uuid: b147fef6a0db3830bf0645bec58db576
+[Binary:Load] path: /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libQuadrature.dylib, address: 0x7fff340dc000, size: 0x6000, slide: 0xa22d000, uuid: 371f36a7b12f363e8955f24f7c2048f6
+[Binary:Load] path: /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBNNS.dylib, address: 0x7fff33856000, size: 0x4d4000, slide: 0xa22d000, uuid: 99c61c48b14c3da68c316bf72da0a3a9
+[Binary:Load] path: /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libSparse.dylib, address: 0x7fff340e2000, size: 0x71000, slide: 0xa22d000, uuid: b8a10d0c4577343db310a3e81265d107
+[Binary:Load] path: /System/Library/PrivateFrameworks/LanguageModeling.framework/Versions/A/LanguageModeling, address: 0x7fff5c9f5000, size: 0xcf000, slide: 0xa22d000, uuid: c456087d5b3a390ea665862fa284c59c
+[Binary:Load] path: /System/Library/PrivateFrameworks/CoreEmoji.framework/Versions/A/CoreEmoji, address: 0x7fff4f21e000, size: 0x11000, slide: 0xa22d000, uuid: 7c2b3259083b31b8bcdb1ba360529936
+[Binary:Load] path: /System/Library/PrivateFrameworks/LinguisticData.framework/Versions/A/LinguisticData, address: 0x7fff5cb13000, size: 0x6000, slide: 0xa22d000, uuid: 3b92f2494602325f984bd2de61eee4e1
+[Binary:Load] path: /System/Library/PrivateFrameworks/Lexicon.framework/Versions/A/Lexicon, address: 0x7fff5cac4000, size: 0x49000, slide: 0xa22d000, uuid: 41f208b982553ec79673fe0925d071d3
+[Binary:Load] path: /usr/lib/libcmph.dylib, address: 0x7fff6e720000, size: 0x12000, slide: 0xa22d000, uuid: e72a20db2e86378da237eb9a1370f989
+[Binary:Load] path: /System/Library/Frameworks/OpenDirectory.framework/Versions/A/Frameworks/CFOpenDirectory.framework/Versions/A/CFOpenDirectory, address: 0x7fff4088a000, size: 0x1d000, slide: 0xa22d000, uuid: 7e6c88eb3dd932b081fc179552834fa9
+[Binary:Load] path: /System/Library/Frameworks/OpenDirectory.framework/Versions/A/OpenDirectory, address: 0x7fff408a7000, size: 0xc000, slide: 0xa22d000, uuid: 4a92d8d8a9e53a9c942f28576f6bcdf5
+[Binary:Load] path: /System/Library/PrivateFrameworks/APFS.framework/Versions/A/APFS, address: 0x7fff48cea000, size: 0xc6000, slide: 0xa22d000, uuid: c86a3423e61c335a9d170b3ce5bb6467
+[Binary:Load] path: /System/Library/Frameworks/SecurityFoundation.framework/Versions/A/SecurityFoundation, address: 0x7fff43f99000, size: 0x89000, slide: 0xa22d000, uuid: 7c69df4740173df2b55b712b481654cb
+[Binary:Load] path: /usr/lib/libutil.dylib, address: 0x7fff707e6000, size: 0x4000, slide: 0xa22d000, uuid: f01467f623a737eea17033ce1577b41d
+[Binary:Load] path: /System/Library/PrivateFrameworks/CoreServicesStore.framework/Versions/A/CoreServicesStore, address: 0x7fff50753000, size: 0x2f000, slide: 0xa22d000, uuid: c2d67667fa0b3db6aa346999ee4346a0
+[Binary:Load] path: /System/Library/Frameworks/ServiceManagement.framework/Versions/A/ServiceManagement, address: 0x7fff44050000, size: 0x5000, slide: 0xa22d000, uuid: 2c62956cf2d43eb086c7eaa06331621a
+[Binary:Load] path: /System/Library/PrivateFrameworks/BackgroundTaskManagement.framework/Versions/A/BackgroundTaskManagement, address: 0x7fff4c40d000, size: 0xa000, slide: 0xa22d000, uuid: a6877dad8f47363c983adc8dde83b7b5
+[Binary:Load] path: /usr/lib/libxslt.1.dylib, address: 0x7fff708e3000, size: 0x29000, slide: 0xa22d000, uuid: 34a45627da5b37d2960965b425e0010a
+[Binary:Load] path: /System/Library/PrivateFrameworks/UIFoundation.framework/Versions/A/UIFoundation, address: 0x7fff683e5000, size: 0x259000, slide: 0xa22d000, uuid: ec55b9e57e62380a9ab1fc7bef663653
+[Binary:Load] path: /System/Library/PrivateFrameworks/RemoteViewServices.framework/Versions/A/RemoteViewServices, address: 0x7fff63479000, size: 0x2a000, slide: 0xa22d000, uuid: d3aac2be34233f189654e35f1dd8ddb3
+[Binary:Load] path: /System/Library/PrivateFrameworks/XCTTargetBootstrap.framework/Versions/A/XCTTargetBootstrap, address: 0x7fff6af40000, size: 0x4000, slide: 0xa22d000, uuid: d459d62858c539a6b7e8b691cbeecec1
+[Binary:Load] path: /System/Library/Frameworks/CoreDisplay.framework/Versions/A/CoreDisplay, address: 0x7fff371c5000, size: 0x133000, slide: 0xa22d000, uuid: 213d701181803cf49be7fb8f75dcdb95
+[Binary:Load] path: /System/Library/Frameworks/Metal.framework/Versions/A/Metal, address: 0x7fff3c870000, size: 0xcb000, slide: 0xa22d000, uuid: 98c944d662c8355e90f8c1ca2429ef24
+[Binary:Load] path: /System/Library/PrivateFrameworks/DesktopServicesPriv.framework/Versions/A/DesktopServicesPriv, address: 0x7fff51466000, size: 0x189000, slide: 0xa22d000, uuid: bfa7d5b520ee38e3b8a796ce1f9bb48a
+[Binary:Load] path: /System/Library/PrivateFrameworks/CoreSVG.framework/Versions/A/CoreSVG, address: 0x7fff506fb000, size: 0x24000, slide: 0xa22d000, uuid: f38189f9c8f93d629d5f3f520fb81724
+[Binary:Load] path: /System/Library/PrivateFrameworks/SkyLight.framework/Versions/A/SkyLight, address: 0x7fff665d5000, size: 0x2f7000, slide: 0xa22d000, uuid: a24929c395e635a7965446ff3f4d1e80
+[Binary:Load] path: /System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics, address: 0x7fff37779000, size: 0x676000, slide: 0xa22d000, uuid: 4a3cde7b45783058966a3d1dc095a935
+[Binary:Load] path: /System/Library/PrivateFrameworks/IconServices.framework/Versions/A/IconServices, address: 0x7fff5c404000, size: 0x4c000, slide: 0xa22d000, uuid: 0dadb4c346ff3fdb8a8651e2067fc7f4
+[Binary:Load] path: /System/Library/Frameworks/IOSurface.framework/Versions/A/IOSurface, address: 0x7fff3a194000, size: 0x12000, slide: 0xa22d000, uuid: bcd744d4e17e3c2eb69cf69c789892e9
+[Binary:Load] path: /System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices, address: 0x7fff353bb000, size: 0x1000, slide: 0xa22d000, uuid: c23d2740faf63bd69e4856f54d752864
+[Binary:Load] path: /System/Library/PrivateFrameworks/DFRFoundation.framework/Versions/A/DFRFoundation, address: 0x7fff512c0000, size: 0x13000, slide: 0xa22d000, uuid: 8162057ee8563451916004aeddecffa4
+[Binary:Load] path: /System/Library/Frameworks/AudioToolbox.framework/Versions/A/AudioToolbox, address: 0x7fff356ed000, size: 0xe2000, slide: 0xa22d000, uuid: 8cfa06205e433c4da75b981c0961c2de
+[Binary:Load] path: /System/Library/Frameworks/AudioUnit.framework/Versions/A/AudioUnit, address: 0x7fff357d0000, size: 0x1000, slide: 0xa22d000, uuid: c8f9cc56f7cf3e77b6fcbd8e1d19fa92
+[Binary:Load] path: /System/Library/Frameworks/CoreData.framework/Versions/A/CoreData, address: 0x7fff36dda000, size: 0x3eb000, slide: 0xa22d000, uuid: 49ae61cac91e31fe9bd01aacffb5181e
+[Binary:Load] path: /System/Library/PrivateFrameworks/DataDetectorsCore.framework/Versions/A/DataDetectorsCore, address: 0x7fff51362000, size: 0x7b000, slide: 0xa22d000, uuid: b153479610003520a641a97a4ac5d39b
+[Binary:Load] path: /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/HIToolbox, address: 0x7fff35f77000, size: 0x2f5000, slide: 0xa22d000, uuid: eaf2dac366b130bfaf1072dda90d1044
+[Binary:Load] path: /System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore, address: 0x7fff42e49000, size: 0x284000, slide: 0xa22d000, uuid: fe927b0ebd4932cc8a5590f553c86c15
+[Binary:Load] path: /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/SpeechRecognition.framework/Versions/A/SpeechRecognition, address: 0x7fff362b6000, size: 0x7000, slide: 0xa22d000, uuid: 9614a01e83033422a3ba6ce27540e09a
+[Binary:Load] path: /System/Library/PrivateFrameworks/CoreUI.framework/Versions/A/CoreUI, address: 0x7fff50dd4000, size: 0x12d000, slide: 0xa22d000, uuid: 788818b77ebc316d9464d12e365e3791
+[Binary:Load] path: /System/Library/Frameworks/CoreAudio.framework/Versions/A/CoreAudio, address: 0x7fff36845000, size: 0x50a000, slide: 0xa22d000, uuid: 9da02e7a56a03fff94c21795ba761f07
+[Binary:Load] path: /System/Library/PrivateFrameworks/MultitouchSupport.framework/Versions/A/MultitouchSupport, address: 0x7fff5e454000, size: 0x31000, slide: 0xa22d000, uuid: 6794e1c8962733df84f4fdd02c97f383
+[Binary:Load] path: /System/Library/PrivateFrameworks/PerformanceAnalysis.framework/Versions/A/PerformanceAnalysis, address: 0x7fff6060c000, size: 0xc000, slide: 0xa22d000, uuid: b47c00e5ecc2313d93d4dbdf562c48ef
+[Binary:Load] path: /System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL, address: 0x7fff41e7c000, size: 0x10000, slide: 0xa22d000, uuid: d3c57a326bd03228b1c40f42a6128a6c
+[Binary:Load] path: /System/Library/Frameworks/ColorSync.framework/Versions/A/ColorSync, address: 0x7fff36464000, size: 0xf7000, slide: 0xa22d000, uuid: a126406cda383ffe8b25bb9859efd159
+[Binary:Load] path: /System/Library/Frameworks/CoreImage.framework/Versions/A/CoreImage, address: 0x7fff37dfc000, size: 0x35c000, slide: 0xa22d000, uuid: 6936106901ab342e862b73a74271a765
+[Binary:Load] path: /System/Library/Frameworks/CoreText.framework/Versions/A/CoreText, address: 0x7fff39153000, size: 0x1b8000, slide: 0xa22d000, uuid: a88f052ac8403e6c9bf8fffed34c0667
+[Binary:Load] path: /System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO, address: 0x7fff3a224000, size: 0x15d000, slide: 0xa22d000, uuid: 5dbad721b70e396c922ca2742e6815d6
+[Binary:Load] path: /usr/lib/libMobileGestalt.dylib, address: 0x7fff6e23e000, size: 0x21000, slide: 0xa22d000, uuid: 2be94e6afa61312f84a1f764d71b7e39
+[Binary:Load] path: /System/Library/PrivateFrameworks/TextureIO.framework/Versions/A/TextureIO, address: 0x7fff6814f000, size: 0xc7000, slide: 0xa22d000, uuid: eedab753329a396a81195bedf7db5a56
+[Binary:Load] path: /usr/lib/libate.dylib, address: 0x7fff6e535000, size: 0x9a000, slide: 0xa22d000, uuid: 76ea60fb748c313f8951b076540bea97
+[Binary:Load] path: /System/Library/PrivateFrameworks/InternationalSupport.framework/Versions/A/InternationalSupport, address: 0x7fff5c60d000, size: 0x8000, slide: 0xa22d000, uuid: 8d8d4a7dfd3536b8a4567c93030edab3
+[Binary:Load] path: /System/Library/PrivateFrameworks/AppleSystemInfo.framework/Versions/A/AppleSystemInfo, address: 0x7fff4b2b0000, size: 0x4000, slide: 0xa22d000, uuid: 67255151f98939f0bc870c0bdae70730
+[Binary:Load] path: /System/Library/Frameworks/ImageIO.framework/Versions/A/Resources/libJPEG.dylib, address: 0x7fff3a43f000, size: 0x24000, slide: 0xa22d000, uuid: 13eaedd3d4cf3b2cb7a4fb000a71d982
+[Binary:Load] path: /System/Library/Frameworks/ImageIO.framework/Versions/A/Resources/libTIFF.dylib, address: 0x7fff3a6fe000, size: 0x47000, slide: 0xa22d000, uuid: 1f089ef93dce3b499b2b28b9ac3252d0
+[Binary:Load] path: /System/Library/Frameworks/ImageIO.framework/Versions/A/Resources/libPng.dylib, address: 0x7fff3a6e1000, size: 0x1b000, slide: 0xa22d000, uuid: 031068a229e23be093cc76d154976a51
+[Binary:Load] path: /System/Library/Frameworks/ImageIO.framework/Versions/A/Resources/libGIF.dylib, address: 0x7fff3a381000, size: 0x4000, slide: 0xa22d000, uuid: 1a04bec595cf3ea48fa6fe19679331f3
+[Binary:Load] path: /System/Library/Frameworks/ImageIO.framework/Versions/A/Resources/libJP2.dylib, address: 0x7fff3a385000, size: 0xba000, slide: 0xa22d000, uuid: 686b045d56273deeb01872068b7136d4
+[Binary:Load] path: /System/Library/Frameworks/ImageIO.framework/Versions/A/Resources/libRadiance.dylib, address: 0x7fff3a6fc000, size: 0x2000, slide: 0xa22d000, uuid: 6b5a0402f51139ed933ac361005107b1
+[Binary:Load] path: /usr/lib/libexpat.1.dylib, address: 0x7fff6f162000, size: 0x19000, slide: 0xa22d000, uuid: fed7c38b92d8342daed7871b12d1f7e7
+[Binary:Load] path: /System/Library/PrivateFrameworks/AppleJPEG.framework/Versions/A/AppleJPEG, address: 0x7fff4ad98000, size: 0x49000, slide: 0xa22d000, uuid: 6de30a07c627319ba0deeb7a832beb88
+[Binary:Load] path: /System/Library/PrivateFrameworks/FontServices.framework/libFontParser.dylib, address: 0x7fff53a69000, size: 0x138000, slide: 0xa22d000, uuid: 9e9e2eaa3273360ea01beb986ecb7bcf
+[Binary:Load] path: /System/Library/PrivateFrameworks/WatchdogClient.framework/Versions/A/WatchdogClient, address: 0x7fff6a30f000, size: 0x2000, slide: 0xa22d000, uuid: ffa17da1f6dd34d3a7081f73c8ba7ea7
+[Binary:Load] path: /System/Library/PrivateFrameworks/IOAccelerator.framework/Versions/A/IOAccelerator, address: 0x7fff5c050000, size: 0x9000, slide: 0xa22d000, uuid: 06e3e70bc0d039a296b712ed6a0ebee7
+[Binary:Load] path: /System/Library/Frameworks/MetalPerformanceShaders.framework/Versions/A/MetalPerformanceShaders, address: 0x7fff3cc0b000, size: 0x2000, slide: 0xa22d000, uuid: f2921f9a30413495878d64134267b847
+[Binary:Load] path: /System/Library/PrivateFrameworks/GPUWrangler.framework/Versions/A/GPUWrangler, address: 0x7fff587e6000, size: 0x7000, slide: 0xa22d000, uuid: 487f2e7aa5ff3c36a8e9b85d98618116
+[Binary:Load] path: /System/Library/PrivateFrameworks/IOPresentment.framework/Versions/A/IOPresentment, address: 0x7fff5c065000, size: 0x18000, slide: 0xa22d000, uuid: 32f1b3bc46443982aab28eb5d5ff0161
+[Binary:Load] path: /System/Library/PrivateFrameworks/DSExternalDisplay.framework/Versions/A/DSExternalDisplay, address: 0x7fff512d3000, size: 0x6000, slide: 0xa22d000, uuid: 31ecb5fd766033dbbc5b2b2a2aa7c686
+[Binary:Load] path: /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libCoreFSCache.dylib, address: 0x7fff4121b000, size: 0x6000, slide: 0xa22d000, uuid: e9a20e72b17f33d6889441934a10b822
+[Binary:Load] path: /System/Library/Frameworks/MetalPerformanceShaders.framework/Frameworks/MPSCore.framework/Versions/A/MPSCore, address: 0x7fff3c957000, size: 0x3e000, slide: 0xa22d000, uuid: 7ebac15d7837395db4051e29f7da68fa
+[Binary:Load] path: /System/Library/Frameworks/MetalPerformanceShaders.framework/Frameworks/MPSImage.framework/Versions/A/MPSImage, address: 0x7fff3c995000, size: 0x8b000, slide: 0xa22d000, uuid: b424fe0c6e903bfaa6e7dd86c735ae90
+[Binary:Load] path: /System/Library/Frameworks/MetalPerformanceShaders.framework/Frameworks/MPSNeuralNetwork.framework/Versions/A/MPSNeuralNetwork, address: 0x7fff3ca5c000, size: 0x15f000, slide: 0xa22d000, uuid: 05612e0650cb318f9f8eef4d49fab3b0
+[Binary:Load] path: /System/Library/Frameworks/MetalPerformanceShaders.framework/Frameworks/MPSMatrix.framework/Versions/A/MPSMatrix, address: 0x7fff3ca20000, size: 0x26000, slide: 0xa22d000, uuid: 02006d92e2ab3892a96b37f6520c19ba
+[Binary:Load] path: /System/Library/Frameworks/MetalPerformanceShaders.framework/Frameworks/MPSRayIntersector.framework/Versions/A/MPSRayIntersector, address: 0x7fff3cbbb000, size: 0x50000, slide: 0xa22d000, uuid: b0b591f86875351e867f8eb3cd38cd52
+[Binary:Load] path: /System/Library/Frameworks/MetalPerformanceShaders.framework/Frameworks/MPSNDArray.framework/Versions/A/MPSNDArray, address: 0x7fff3ca46000, size: 0x16000, slide: 0xa22d000, uuid: caa5a368db7134f6aef927a8bc298f53
+[Binary:Load] path: /System/Library/PrivateFrameworks/MetalTools.framework/Versions/A/MetalTools, address: 0x7fff5dece000, size: 0xd2000, slide: 0xa22d000, uuid: 99876e0837d73828879656d90c9afbdb
+[Binary:Load] path: /System/Library/PrivateFrameworks/AggregateDictionary.framework/Versions/A/AggregateDictionary, address: 0x7fff49ec4000, size: 0x2000, slide: 0xa22d000, uuid: 95a291f5b69f3c379483c3b2ebf52ac1
+[Binary:Load] path: /System/Library/PrivateFrameworks/CoreAnalytics.framework/Versions/A/CoreAnalytics, address: 0x7fff4ec66000, size: 0x22000, slide: 0xa22d000, uuid: 95a87174a6163f80b17a1fa7e3db7c09
+[Binary:Load] path: /System/Library/PrivateFrameworks/AppleSauce.framework/Versions/A/AppleSauce, address: 0x7fff4b1cf000, size: 0x23000, slide: 0xa22d000, uuid: 68e0364caea73654a030136bf3cd92f3
+[Binary:Load] path: /usr/lib/libIOReport.dylib, address: 0x7fff6e120000, size: 0x7000, slide: 0xa22d000, uuid: 75d177c4bad73285b8e13019f49b3178
+[Binary:Load] path: /System/Library/Frameworks/CoreVideo.framework/Versions/A/CoreVideo, address: 0x7fff3930b000, size: 0x45000, slide: 0xa22d000, uuid: 5314e70d325f3e9899fc00fdf520747e
+[Binary:Load] path: /System/Library/PrivateFrameworks/GraphVisualizer.framework/Versions/A/GraphVisualizer, address: 0x7fff59c5f000, size: 0xf000, slide: 0xa22d000, uuid: 507d58129cb43c94938c59ed2b370818
+[Binary:Load] path: /System/Library/PrivateFrameworks/FaceCore.framework/Versions/A/FaceCore, address: 0x7fff52faf000, size: 0x41c000, slide: 0xa22d000, uuid: 5d32f65d2cd73204975cf4c9256e505f
+[Binary:Load] path: /System/Library/Frameworks/OpenCL.framework/Versions/A/OpenCL, address: 0x7fff40831000, size: 0x59000, slide: 0xa22d000, uuid: 293fe2239186320b81a4ec8104c38357
+[Binary:Load] path: /usr/lib/libFosl_dynamic.dylib, address: 0x7fff6df42000, size: 0x1b8000, slide: 0xa22d000, uuid: 737573b2190a3ba18220807ad0a2ce5e
+[Binary:Load] path: /System/Library/PrivateFrameworks/OTSVG.framework/Versions/A/OTSVG, address: 0x7fff5f3a4000, size: 0x4c000, slide: 0xa22d000, uuid: 001e5e8c1dc03a6ebde41b7887e47f76
+[Binary:Load] path: /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/Resources/libFontRegistry.dylib, address: 0x7fff354c0000, size: 0x3f000, slide: 0xa22d000, uuid: f3461c050370359b9f035c1c1f7763ec
+[Binary:Load] path: /System/Library/PrivateFrameworks/FontServices.framework/libhvf.dylib, address: 0x7fff53c3a000, size: 0x11000, slide: 0xa22d000, uuid: 1605b44108e0332db7d80e13f37b54e7
+[Binary:Load] path: /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGFXShared.dylib, address: 0x7fff41226000, size: 0x9000, slide: 0xa22d000, uuid: ab47b92765e3392488be0a5be7906785
+[Binary:Load] path: /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLU.dylib, address: 0x7fff41404000, size: 0x3d000, slide: 0xa22d000, uuid: d8b4d804732330bc871cb7236ffc2fe3
+[Binary:Load] path: /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGL.dylib, address: 0x7fff4122f000, size: 0xb000, slide: 0xa22d000, uuid: fb5e6a75398e38ef8cb259f5bfe3034c
+[Binary:Load] path: /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLImage.dylib, address: 0x7fff4123a000, size: 0x35000, slide: 0xa22d000, uuid: 9a3fe63361b83cc7818362960109401a
+[Binary:Load] path: /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libCVMSPluginSupport.dylib, address: 0x7fff41218000, size: 0x3000, slide: 0xa22d000, uuid: 2b6c3c163f5f36a880702a862b90328b
+[Binary:Load] path: /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libCoreVMClient.dylib, address: 0x7fff41221000, size: 0x5000, slide: 0xa22d000, uuid: 018a48ba132638478fb5a7c99322eb87
+[Binary:Load] path: /usr/lib/libncurses.5.4.dylib, address: 0x7fff6fbb4000, size: 0x30000, slide: 0xa22d000, uuid: 995dfeea40f3377fb73dd02ac59d591f
+[Binary:Load] path: /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/ATS, address: 0x7fff353bc000, size: 0x6c000, slide: 0xa22d000, uuid: 87ea5de1506a39fd88bed8a3416c9012
+[Binary:Load] path: /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ColorSyncLegacy.framework/Versions/A/ColorSyncLegacy, address: 0x7fff35589000, size: 0x5000, slide: 0xa22d000, uuid: 72ee68dbf06937f5aa2a40d5fcf139f4
+[Binary:Load] path: /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/HIServices, address: 0x7fff35627000, size: 0x58000, slide: 0xa22d000, uuid: 14df4d42e24d3ebd9a9d93124d8d6aa1
+[Binary:Load] path: /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LangAnalysis.framework/Versions/A/LangAnalysis, address: 0x7fff3567f000, size: 0xf000, slide: 0xa22d000, uuid: 01b8b6b3e2c33607b34a8283a7e0e924
+[Binary:Load] path: /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/PrintCore.framework/Versions/A/PrintCore, address: 0x7fff3568e000, size: 0x46000, slide: 0xa22d000, uuid: 437bcf1248d237708bc9567718fb1bca
+[Binary:Load] path: /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/QD.framework/Versions/A/QD, address: 0x7fff356d4000, size: 0xb000, slide: 0xa22d000, uuid: 27a36d07b5e932e687b63127f260f48d
+[Binary:Load] path: /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/SpeechSynthesis.framework/Versions/A/SpeechSynthesis, address: 0x7fff356df000, size: 0xe000, slide: 0xa22d000, uuid: 75344f8f32ca3558b4e6f56d498250e4
+[Binary:Load] path: /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATSUI.framework/Versions/A/ATSUI, address: 0x7fff35559000, size: 0x30000, slide: 0xa22d000, uuid: 5f513967ddd73f22ad148a38abd9f2d0
+[Binary:Load] path: /usr/lib/libcups.2.dylib, address: 0x7fff6eff8000, size: 0x60000, slide: 0xa22d000, uuid: c88d78fed238376cb16a39270e39a79d
+[Binary:Load] path: /System/Library/Frameworks/Kerberos.framework/Versions/A/Kerberos, address: 0x7fff3bca6000, size: 0x13000, slide: 0xa22d000, uuid: 03bb492b016e37bfb02039c2cf7487fe
+[Binary:Load] path: /System/Library/Frameworks/GSS.framework/Versions/A/GSS, address: 0x7fff39de7000, size: 0x51000, slide: 0xa22d000, uuid: 2f3a67e6d42a3cf09041a42c22d46f95
+[Binary:Load] path: /usr/lib/libresolv.9.dylib, address: 0x7fff70337000, size: 0x19000, slide: 0xa22d000, uuid: c57edfefd36a310b8d148c68a625b1e8
+[Binary:Load] path: /System/Library/PrivateFrameworks/Heimdal.framework/Versions/A/Heimdal, address: 0x7fff59e0c000, size: 0xbf000, slide: 0xa22d000, uuid: b86fe9db71bb3b6ea4ae2b0b44570a7f
+[Binary:Load] path: /System/Library/Frameworks/Kerberos.framework/Versions/A/Libraries/libHeimdalProxy.dylib, address: 0x7fff3bcb9000, size: 0x1000, slide: 0xa22d000, uuid: 0a2905ee95333345af9baac71513bdfd
+[Binary:Load] path: /usr/lib/libheimdal-asn1.dylib, address: 0x7fff6f19f000, size: 0xa000, slide: 0xa22d000, uuid: 0ac6fb622b0f3e93a931e4dc4b1d757a
+[Binary:Load] path: /System/Library/PrivateFrameworks/CommonAuth.framework/Versions/A/CommonAuth, address: 0x7fff4e0fe000, size: 0x11000, slide: 0xa22d000, uuid: cf67ff3442383ecab4a4ea04f18a0d36
+[Binary:Load] path: /System/Library/PrivateFrameworks/AssertionServices.framework/Versions/A/AssertionServices, address: 0x7fff4b34d000, size: 0x10000, slide: 0xa22d000, uuid: 48ad21cab81d380ea04f90c48fda5203
+[Binary:Load] path: /System/Library/PrivateFrameworks/AudioToolboxCore.framework/Versions/A/AudioToolboxCore, address: 0x7fff4bef0000, size: 0x241000, slide: 0xa22d000, uuid: 5b539f5093e83f739e4c678c85d0488f
+[Binary:Load] path: /System/Library/PrivateFrameworks/caulk.framework/Versions/A/caulk, address: 0x7fff6afbd000, size: 0xf000, slide: 0xa22d000, uuid: 06d695eae2bc31e498169c12542ba744
+[Binary:Load] path: /System/Library/PrivateFrameworks/BaseBoard.framework/Versions/A/BaseBoard, address: 0x7fff4c4b9000, size: 0x8d000, slide: 0xa22d000, uuid: 10d0f3bbe8f3365e85286ac996a9b0e7
+[Binary:Load] path: /System/Library/PrivateFrameworks/RunningBoardServices.framework/Versions/A/RunningBoardServices, address: 0x7fff63607000, size: 0x3c000, slide: 0xa22d000, uuid: 96bb04bdd6e03d708f3689b46da1da30
+[Binary:Load] path: /System/Library/PrivateFrameworks/PersistentConnection.framework/Versions/A/PersistentConnection, address: 0x7fff60618000, size: 0x29000, slide: 0xa22d000, uuid: 5b2d87a826413f6dacea96b00f85aab5
+[Binary:Load] path: /System/Library/PrivateFrameworks/ProtocolBuffer.framework/Versions/A/ProtocolBuffer, address: 0x7fff63000000, size: 0x1a000, slide: 0xa22d000, uuid: 5a020941c43c303e8de8230fc6a84dbc
+[Binary:Load] path: /System/Library/PrivateFrameworks/CommonUtilities.framework/Versions/A/CommonUtilities, address: 0x7fff4e122000, size: 0x18000, slide: 0xa22d000, uuid: f4c97244e5d83f7d8d944b6841c5a4ec
+[Binary:Load] path: /System/Library/PrivateFrameworks/Bom.framework/Versions/A/Bom, address: 0x7fff4c647000, size: 0x3d000, slide: 0xa22d000, uuid: 79cbe5e7054f377b9566a86a9f120cf1
+[Binary:Load] path: /usr/lib/libAudioToolboxUtility.dylib, address: 0x7fff6ddf3000, size: 0x34000, slide: 0xa22d000, uuid: a7249c4c6c0a3c14ba27dc966f6cc6a0
+[Binary:Load] path: /System/Library/PrivateFrameworks/Backup.framework/Versions/A/Backup, address: 0x7fff4c417000, size: 0xa2000, slide: 0xa22d000, uuid: c4bc12a34d01377fa1db7e1490831cf2
+[Binary:Load] path: /System/Library/PrivateFrameworks/CrashReporterSupport.framework/Versions/A/CrashReporterSupport, address: 0x7fff511f4000, size: 0x14000, slide: 0xa22d000, uuid: adf138f002743ba2a1d248b91577fe53
+[Binary:Load] path: /System/Library/PrivateFrameworks/Sharing.framework/Versions/A/Sharing, address: 0x7fff65099000, size: 0x128000, slide: 0xa22d000, uuid: cbda0addf1e73b069118c5e183f0d3d6
+[Binary:Load] path: /System/Library/PrivateFrameworks/Apple80211.framework/Versions/A/Apple80211, address: 0x7fff4a95b000, size: 0x25000, slide: 0xa22d000, uuid: d94e03e84c383b2f8df4473acc5a7d71
+[Binary:Load] path: /System/Library/PrivateFrameworks/AuthKit.framework/Versions/A/AuthKit, address: 0x7fff4c134000, size: 0x11d000, slide: 0xa22d000, uuid: dc1a27c501723c729b2406996d0b6207
+[Binary:Load] path: /System/Library/PrivateFrameworks/CoreUtils.framework/Versions/A/CoreUtils, address: 0x7fff50f01000, size: 0x1ba000, slide: 0xa22d000, uuid: a74a1c6566953f57b7030dede13e66c1
+[Binary:Load] path: /System/Library/Frameworks/CoreWLAN.framework/Versions/A/CoreWLAN, address: 0x7fff39350000, size: 0x8e000, slide: 0xa22d000, uuid: 6223bfd5d4513de990f6f609ac0b0027
+[Binary:Load] path: /System/Library/Frameworks/IOBluetooth.framework/Versions/A/IOBluetooth, address: 0x7fff39f74000, size: 0x115000, slide: 0xa22d000, uuid: cf9cefba97ac347493af863c2c74c645
+[Binary:Load] path: /System/Library/PrivateFrameworks/MobileKeyBag.framework/Versions/A/MobileKeyBag, address: 0x7fff5e1d3000, size: 0x1f000, slide: 0xa22d000, uuid: d5fa7041297f3adc8c7a6eaaab82eb68
+[Binary:Load] path: /System/Library/PrivateFrameworks/CorePhoneNumbers.framework/Versions/A/CorePhoneNumbers, address: 0x7fff4fd06000, size: 0x9000, slide: 0xa22d000, uuid: e4dad5140b3b3e0b8aea39b320faaf03
+[Binary:Load] path: /System/Library/PrivateFrameworks/AppleIDAuthSupport.framework/Versions/A/AppleIDAuthSupport, address: 0x7fff4ad4b000, size: 0xc000, slide: 0xa22d000, uuid: 74f6cd9c27a739c7a7eb47e60d2517eb
+[Binary:Load] path: /System/Library/Frameworks/Network.framework/Versions/A/Network, address: 0x7fff3dca8000, size: 0x158000, slide: 0xa22d000, uuid: 4a0f3b934d233e749a3dad19e9c0e59e
+[Binary:Load] path: /System/Library/PrivateFrameworks/KeychainCircle.framework/Versions/A/KeychainCircle, address: 0x7fff5c8a1000, size: 0x20000, slide: 0xa22d000, uuid: 6f655a32f9633a7eb475e460f4ac7d99
+[Binary:Load] path: /System/Library/Frameworks/CoreBluetooth.framework/Versions/A/CoreBluetooth, address: 0x7fff36da1000, size: 0x39000, slide: 0xa22d000, uuid: 23dbb313a0823c088e1f2d31ee4247ef
+[Binary:Load] path: /System/Library/PrivateFrameworks/SpeechRecognitionCore.framework/Versions/A/SpeechRecognitionCore, address: 0x7fff67118000, size: 0xf000, slide: 0xa22d000, uuid: 4d6cac2a151b3bbebdb7e2be72128691
+[Binary:Load] path: /System/Library/Frameworks/Combine.framework/Versions/A/Combine, address: 0x7fff3655b000, size: 0xf1000, slide: 0xa22d000, uuid: 02c5d48ae70f3d6885554211853f9c3b
+[Binary:Load] path: /System/Library/Frameworks/CloudKit.framework/Versions/A/CloudKit, address: 0x7fff362bd000, size: 0x199000, slide: 0xa22d000, uuid: 1b851180fc00357fb6c1bb0ea7d6d5ca
+[Binary:Load] path: /System/Library/PrivateFrameworks/SymptomDiagnosticReporter.framework/Versions/A/SymptomDiagnosticReporter, address: 0x7fff6795a000, size: 0xa000, slide: 0xa22d000, uuid: 14929a5dc3693b46844bcd29a3d1a015
+[Binary:Load] path: /System/Library/PrivateFrameworks/UserManagement.framework/Versions/A/UserManagement, address: 0x7fff692b3000, size: 0x21000, slide: 0xa22d000, uuid: 9f00880e6ea63684b208455e14ec07c8
+[Binary:Load] path: /System/Library/PrivateFrameworks/ApplePushService.framework/Versions/A/ApplePushService, address: 0x7fff4b1a3000, size: 0x27000, slide: 0xa22d000, uuid: 3ed300b643e331dcb3c66a0ff41a2595
+[Binary:Load] path: /System/Library/PrivateFrameworks/C2.framework/Versions/A/C2, address: 0x7fff4c7a1000, size: 0x38000, slide: 0xa22d000, uuid: 4a7e2a63e19a393692f503f2fd602172
+[Binary:Load] path: /System/Library/Frameworks/CoreLocation.framework/Versions/A/CoreLocation, address: 0x7fff38158000, size: 0x6a000, slide: 0xa22d000, uuid: 759661242fb733c3be493dd5f327f911
+[Binary:Load] path: /System/Library/PrivateFrameworks/ProtectedCloudStorage.framework/Versions/A/ProtectedCloudStorage, address: 0x7fff62fa5000, size: 0x5b000, slide: 0xa22d000, uuid: 6f2713883817336d9b9608c7aac4ba39
+[Binary:Load] path: /System/Library/Frameworks/PushKit.framework/Versions/A/PushKit, address: 0x7fff424e9000, size: 0x7000, slide: 0xa22d000, uuid: ad547a251a0b3fa6867682c37f267a4a
+[Binary:Load] path: /System/Library/Frameworks/Accounts.framework/Versions/A/Accounts, address: 0x7fff34402000, size: 0x60000, slide: 0xa22d000, uuid: e243807030ab3b89ae631e485b92d108
+[Binary:Load] path: /System/Library/PrivateFrameworks/CoreDaemon.framework/Versions/B/CoreDaemon, address: 0x7fff4ef92000, size: 0xc000, slide: 0xa22d000, uuid: bb7d67b121023d719bb6aeb8c6a6ebb2
+[Binary:Load] path: /System/Library/PrivateFrameworks/AppleSRP.framework/Versions/A/AppleSRP, address: 0x7fff4b1ca000, size: 0x5000, slide: 0xa22d000, uuid: 70c25ea9f7a7366c97c6eee7845ffcc3
+[Binary:Load] path: /System/Library/Frameworks/NetworkExtension.framework/Versions/A/NetworkExtension, address: 0x7fff3de00000, size: 0x261000, slide: 0xa22d000, uuid: 3ed35c5ab170373e8277d4198e408810
+[Binary:Load] path: /usr/lib/libnetworkextension.dylib, address: 0x7fff70190000, size: 0x18000, slide: 0xa22d000, uuid: d0e8454c33a93f96b3a0edb12c32283a
+[Binary:Load] path: /System/Library/PrivateFrameworks/EAP8021X.framework/Versions/A/EAP8021X, address: 0x7fff51ae6000, size: 0x36000, slide: 0xa22d000, uuid: d3f76e012f9f33e1b5c9cac6e01724c2
+[Binary:Load] path: /System/Library/PrivateFrameworks/GeoServices.framework/Versions/A/GeoServices, address: 0x7fff58b4a000, size: 0xfea000, slide: 0xa22d000, uuid: f735575f7def32029151589beb162596
+[Binary:Load] path: /System/Library/PrivateFrameworks/LocationSupport.framework/Versions/A/LocationSupport, address: 0x7fff5cb3f000, size: 0x25000, slide: 0xa22d000, uuid: ca6c86fd051a31bbb3af3d02d6fd94b6
+[Binary:Load] path: /System/Library/PrivateFrameworks/CoreServicesInternal.framework/Versions/A/CoreServicesInternal, address: 0x7fff5071f000, size: 0x34000, slide: 0xa22d000, uuid: 65f53a226b61382caac2b2c53f8ffb44
+[Binary:Load] path: /System/Library/Frameworks/FileProvider.framework/Versions/A/FileProvider, address: 0x7fff3986f000, size: 0x12f000, slide: 0xa22d000, uuid: e8bb1d4b05d6386c865cf8c750cec308
+[Binary:Load] path: /System/Library/PrivateFrameworks/GenerationalStorage.framework/Versions/A/GenerationalStorage, address: 0x7fff58b0b000, size: 0x27000, slide: 0xa22d000, uuid: 54483e5020bb3af8900f992320c109b0
+[Binary:Load] path: /System/Library/PrivateFrameworks/CoreSymbolication.framework/Versions/A/CoreSymbolication, address: 0x7fff50ca6000, size: 0x97000, slide: 0xa22d000, uuid: 0b3bf87a7f953d79b4f8421d6fac4a6c
+[Binary:Load] path: /System/Library/PrivateFrameworks/AppContainer.framework/Versions/A/AppContainer, address: 0x7fff4a45f000, size: 0x1e000, slide: 0xa22d000, uuid: 87cee13c85853efb92cd0852dff0921b
+[Binary:Load] path: /usr/lib/libsandbox.1.dylib, address: 0x7fff70351000, size: 0x45000, slide: 0xa22d000, uuid: e8ba5e8466af39958f8eddc93b0a88e1
+[Binary:Load] path: /System/Library/PrivateFrameworks/ChunkingLibrary.framework/Versions/A/ChunkingLibrary, address: 0x7fff4d203000, size: 0x50000, slide: 0xa22d000, uuid: 5b09c30dfd2b3e988b64c5ef470fc13c
+[Binary:Load] path: /System/Library/PrivateFrameworks/DebugSymbols.framework/Versions/A/DebugSymbols, address: 0x7fff51428000, size: 0x3e000, slide: 0xa22d000, uuid: 040ae30bcf2c3798a2890929b8cab10d
+[Binary:Load] path: /System/Library/PrivateFrameworks/AppSandbox.framework/Versions/A/AppSandbox, address: 0x7fff4a4d1000, size: 0xf000, slide: 0xa22d000, uuid: 0f49aa043400349a90966d4d7ed61027
+[Binary:Load] path: /System/Library/PrivateFrameworks/SecCodeWrapper.framework/Versions/A/SecCodeWrapper, address: 0x7fff64f23000, size: 0x4000, slide: 0xa22d000, uuid: c4bf691da09e37e8a6cc1145b79b8722
+[Binary:Load] path: /usr/lib/libMatch.1.dylib, address: 0x7fff6e208000, size: 0x8000, slide: 0xa22d000, uuid: 5c6f39719d9e3630bdb660bfc5a665e0
+[Binary:Load] path: /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vImage.framework/Versions/A/Libraries/libCGInterfaces.dylib, address: 0x7fff32f80000, size: 0x17000, slide: 0xa22d000, uuid: 8fd09d09bb1936c5ade94f22da235aee
+[Binary:Load] path: /System/Library/PrivateFrameworks/FontServices.framework/libTrueTypeScaler.dylib, address: 0x7fff53ba1000, size: 0x35000, slide: 0xa22d000, uuid: f8a27f0f44b33a1e8b752dfd4a90e1d4
+[Binary:Load] path: /System/Library/Extensions/AppleIntelKBLGraphicsMTLDriver.bundle/Contents/MacOS/AppleIntelKBLGraphicsMTLDriver, address: 0x7fff2fcf8000, size: 0x400000, slide: 0xa22d000, uuid: 9a7be6d5c4b532cc8956ad5893f903d2
+[Binary:Load] path: /System/Library/PrivateFrameworks/GPUCompiler.framework/Versions/3902/Libraries/libmetal_timestamp.dylib, address: 0x7fff5712b000, size: 0x2000, slide: 0xa22d000, uuid: c29c7125a89437188e1d249c53bcc0b8
+[Binary:Load] path: /System/Library/PrivateFrameworks/ViewBridge.framework/Versions/A/ViewBridge, address: 0x7fff6a07f000, size: 0xeb000, slide: 0xa22d000, uuid: 25ce39df205238739113db52b385c4bb
+[Log:INFO] finished initialization
+[Binary:Load] path: /usr/lib/libobjc-trampolines.dylib, address: 0x10e879000, size: 0x4000, slide: 0x10e879000, uuid: 88f9b648c45536f8bbb97d1a9f57d073
+[Binary:Load] path: /System/Library/PrivateFrameworks/login.framework/Versions/A/login, address: 0x7fff6b310000, size: 0x14000, slide: 0xa22d000, uuid: c68367ba222531ddb2d816ac0a44421f
+[Signal] signal: 0x6, code: 0x0, address: 0x7fff7153333a, time: 0x175224b61d8, errno: 0x0
+[Log:INFO:ImpactSignalHandlerEntranceAdjustState] transition 1 -> 4
+[Log:INFO:ImpactCrashHandler] entering the crash handler
+[Thread:State] rax: 0x0, rbx: 0x1168e6dc0, rcx: 0x7ffee562cd38, rdx: 0x0, rdi: 0x307, rsi: 0x6, rbp: 0x7ffee562cd60, rsp: 0x7ffee562cd38, r8: 0x0, r9: 0x0, r10: 0x1168e6dc0, r11: 0x246, r12: 0x307, r13: 0x600000af03f0, r14: 0x6, r15: 0x16, rip: 0x7fff7153333a, rflags: 0x246, cs: 0x7, fs: 0x0, gs: 0x0
+[Thread:Crashed]
+[Thread:Frame] ip: 0x7fff7153333a, sp: 0x7ffee562cd38, fp: 0x7ffee562cd60
+[Log:INFO] found image at 0x7fff7152c000
+[Log:INFO] no unwind info available
+[Thread:Frame] ip: 0x7fff714ba808, sp: 0x7ffee562cd70, fp: 0x7ffee562cda0
+[Log:INFO] found image at 0x7fff7143b000
+[Log:INFO] found compact unwind encoding 0x1020021
+[Thread:Frame] ip: 0x10a5d7445, sp: 0x7ffee562cdb0, fp: 0x7ffee562cdc0
+[Log:INFO] found image at 0x10a5d2000
+[Log:INFO] found compact unwind encoding 0x1000000
+[Thread:Frame] ip: 0x10a5d8440, sp: 0x7ffee562cdd0, fp: 0x7ffee562ce50
+[Log:INFO] found image at 0x10a5d2000
+[Log:INFO] found compact unwind encoding 0x1000000
+[Thread:Frame] ip: 0x10a5d8508, sp: 0x7ffee562ce60, fp: 0x7ffee562cef0
+[Log:INFO] found image at 0x10a5d2000
+[Log:INFO] found compact unwind encoding 0x1010003
+[Thread:Frame] ip: 0x7fff3482e7a7, sp: 0x7ffee562cf00, fp: 0x7ffee562cf30
+[Log:INFO] found image at 0x7fff345ab000
+[Log:INFO] found compact unwind encoding 0x51040b11
+[Thread:Frame] ip: 0x7fff3482e642, sp: 0x7ffee562cf40, fp: 0x7ffee562cf70
+[Log:INFO] found image at 0x7fff345ab000
+[Log:INFO] found compact unwind encoding 0x10558d1
+[Thread:Frame] ip: 0x7fff3498ecd6, sp: 0x7ffee562cf80, fp: 0x7ffee562cfb0
+[Log:INFO] found image at 0x7fff345ab000
+[Log:INFO] found compact unwind encoding 0x510558d1
+[Thread:Frame] ip: 0x7fff3498d266, sp: 0x7ffee562cfc0, fp: 0x7ffee562d2e0
+[Log:INFO] found image at 0x7fff345ab000
+[Log:INFO] found compact unwind encoding 0x510558d1
+[Thread:Frame] ip: 0x7fff348275f0, sp: 0x7ffee562d2f0, fp: 0x7ffee562d3d0
+[Log:INFO] found image at 0x7fff345ab000
+[Log:INFO] found compact unwind encoding 0x10558d1
+[Thread:Frame] ip: 0x7fff34791e21, sp: 0x7ffee562d3e0, fp: 0x7ffee562d800
+[Log:INFO] found image at 0x7fff345ab000
+[Log:INFO] found compact unwind encoding 0x510558d1
+[Thread:Frame] ip: 0x7fff347911c9, sp: 0x7ffee562d810, fp: 0x7ffee562d840
+[Log:INFO] found image at 0x7fff345ab000
+[Log:INFO] found compact unwind encoding 0x10558d1
+[Thread:Frame] ip: 0x7fff3478f554, sp: 0x7ffee562d850, fp: 0x7ffee562d9b0
+[Log:INFO] found image at 0x7fff345ab000
+[Log:INFO] found compact unwind encoding 0x10558d1
+[Thread:Frame] ip: 0x10a6048db, sp: 0x7ffee562d9c0, fp: 0x7ffee562da00
+[Log:INFO] found image at 0x10a601000
+[Log:INFO] found compact unwind encoding 0x51000000
+[Thread:Frame] ip: 0x7fff345dc5bf, sp: 0x7ffee562da10, fp: 0x7ffee562dac0
+[Log:INFO] found image at 0x7fff345ab000
+[Log:INFO] found compact unwind encoding 0x510558d1
+[Thread:Frame] ip: 0x7fff345ae396, sp: 0x7ffee562dad0, fp: 0x7ffee562db10
+[Log:INFO] found image at 0x7fff345ab000
+[Log:INFO] found compact unwind encoding 0x10558d1
+[Thread:Frame] ip: 0x10a5dd2fd, sp: 0x7ffee562db20, fp: 0x7ffee562db30
+[Log:INFO] found image at 0x10a5d2000
+[Log:INFO] found compact unwind encoding 0x1000000
+[Thread:Frame] ip: 0x7fff713ebcc9, sp: 0x7ffee562db40, fp: 0x7ffee562db48
+[Log:INFO] found image at 0x7fff713d1000
+[Log:INFO] no unwind info available
+[Thread:State] rax: 0x2000170, rbx: 0x64006, rcx: 0x7000074f1fa8, rdx: 0x0, rdi: 0x4, rsi: 0x0, rbp: 0x7000074f1fd0, rsp: 0x7000074f1fa8, r8: 0x64006, r9: 0x0, r10: 0x0, r11: 0x246, r12: 0x7000074f2000, r13: 0x0, r14: 0x0, r15: 0x0, rip: 0x7fff7152e4ce, rflags: 0x246, cs: 0x7, fs: 0x0, gs: 0x0
+[Thread:Frame] ip: 0x7fff7152e4ce, sp: 0x7000074f1fa8, fp: 0x7000074f1fd0
+[Log:INFO] found image at 0x7fff7152c000
+[Log:INFO] no unwind info available
+[Thread:Frame] ip: 0x7fff715ebb77, sp: 0x7000074f1fe0, fp: 0x7000074f1ff0
+[Log:INFO] found image at 0x7fff715ea000
+[Log:INFO] no unwind info available
+[Thread:State] rax: 0x2000170, rbx: 0x74006, rcx: 0x7000075f7fa8, rdx: 0x0, rdi: 0x4, rsi: 0x0, rbp: 0x7000075f7fd0, rsp: 0x7000075f7fa8, r8: 0x7f, r9: 0x7fb, r10: 0x0, r11: 0x246, r12: 0x7000075f8000, r13: 0x0, r14: 0x0, r15: 0x0, rip: 0x7fff7152e4ce, rflags: 0x246, cs: 0x7, fs: 0x0, gs: 0x0
+[Thread:Frame] ip: 0x7fff7152e4ce, sp: 0x7000075f7fa8, fp: 0x7000075f7fd0
+[Log:INFO] found image at 0x7fff7152c000
+[Log:INFO] no unwind info available
+[Thread:Frame] ip: 0x7fff715ebb77, sp: 0x7000075f7fe0, fp: 0x7000075f7ff0
+[Log:INFO] found image at 0x7fff715ea000
+[Log:INFO] no unwind info available
+[Thread:State] rax: 0x2000170, rbx: 0x74006, rcx: 0x700007780fa8, rdx: 0x0, rdi: 0x4, rsi: 0x0, rbp: 0x700007780fd0, rsp: 0x700007780fa8, r8: 0x7f, r9: 0x7fb, r10: 0x0, r11: 0x246, r12: 0x700007781000, r13: 0x0, r14: 0x0, r15: 0x0, rip: 0x7fff7152e4ce, rflags: 0x246, cs: 0x7, fs: 0x0, gs: 0x0
+[Thread:Frame] ip: 0x7fff7152e4ce, sp: 0x700007780fa8, fp: 0x700007780fd0
+[Log:INFO] found image at 0x7fff7152c000
+[Log:INFO] no unwind info available
+[Thread:Frame] ip: 0x7fff715ebb77, sp: 0x700007780fe0, fp: 0x700007780ff0
+[Log:INFO] found image at 0x7fff715ea000
+[Log:INFO] no unwind info available
+[Thread:State] rax: 0x100001f, rbx: 0x6, rcx: 0x7000078034b8, rdx: 0x0, rdi: 0x700007803580, rsi: 0x6, rbp: 0x700007803510, rsp: 0x7000078034b8, r8: 0x730b, r9: 0x0, r10: 0x9f4, r11: 0x206, r12: 0x6, r13: 0x9f4, r14: 0x700007803580, r15: 0x0, rip: 0x7fff7152cdfa, rflags: 0x206, cs: 0x7, fs: 0x0, gs: 0x0
+[Thread:Frame] ip: 0x7fff7152cdfa, sp: 0x7000078034b8, fp: 0x700007803510
+[Log:INFO] found image at 0x7fff7152c000
+[Log:INFO] no unwind info available
+[Thread:Frame] ip: 0x10a60ba2d, sp: 0x700007803520, fp: 0x700007803540
+[Log:INFO] found image at 0x10a601000
+[Log:INFO] found compact unwind encoding 0x1000000
+[Thread:Frame] ip: 0x10a60b684, sp: 0x700007803550, fp: 0x700007803f80
+[Log:INFO] found image at 0x10a601000
+[Log:INFO] found compact unwind encoding 0x1000000
+[Thread:Frame] ip: 0x10a60b559, sp: 0x700007803f90, fp: 0x700007803fb0
+[Log:INFO] found image at 0x10a601000
+[Log:INFO] found compact unwind encoding 0x1000000
+[Thread:Frame] ip: 0x7fff715f0109, sp: 0x700007803fc0, fp: 0x700007803fd0
+[Log:INFO] found image at 0x7fff715ea000
+[Log:INFO] found compact unwind encoding 0x1010001
+[Thread:Frame] ip: 0x7fff715ebb8b, sp: 0x700007803fe0, fp: 0x700007803ff0
+[Log:INFO] found image at 0x7fff715ea000
+[Log:INFO] no unwind info available
+[Thread:State] rax: 0x100001f, rbx: 0x7000806, rcx: 0x700007885f58, rdx: 0x0, rdi: 0x700007886120, rsi: 0x7000806, rbp: 0x700007885fb0, rsp: 0x700007885f58, r8: 0x15017, r9: 0xffffffff, r10: 0xc00, r11: 0x206, r12: 0x7000806, r13: 0xc00, r14: 0x700007886120, r15: 0x0, rip: 0x7fff7152cdfa, rflags: 0x206, cs: 0x7, fs: 0x0, gs: 0x0
+[Thread:Frame] ip: 0x7fff7152cdfa, sp: 0x700007885f58, fp: 0x700007885fb0
+[Log:INFO] found image at 0x7fff7152c000
+[Log:INFO] no unwind info available
+[Thread:Frame] ip: 0x7fff3737bef5, sp: 0x700007885fc0, fp: 0x700007886040
+[Log:INFO] found image at 0x7fff372f8000
+[Log:INFO] found compact unwind encoding 0x10558d1
+[Thread:Frame] ip: 0x7fff3737a9c2, sp: 0x700007886050, fp: 0x700007886d50
+[Log:INFO] found image at 0x7fff372f8000
+[Log:INFO] found compact unwind encoding 0x510558d1
+[Thread:Frame] ip: 0x7fff37379e3e, sp: 0x700007886d60, fp: 0x700007886de0
+[Log:INFO] found image at 0x7fff372f8000
+[Log:INFO] found compact unwind encoding 0x510558d1
+[Thread:Frame] ip: 0x7fff3478d954, sp: 0x700007886df0, fp: 0x700007886fb0
+[Log:INFO] found image at 0x7fff345ab000
+[Log:INFO] found compact unwind encoding 0x510558d1
+[Thread:Frame] ip: 0x7fff715f0109, sp: 0x700007886fc0, fp: 0x700007886fd0
+[Log:INFO] found image at 0x7fff715ea000
+[Log:INFO] found compact unwind encoding 0x1010001
+[Thread:Frame] ip: 0x7fff715ebb8b, sp: 0x700007886fe0, fp: 0x700007886ff0
+[Log:INFO] found image at 0x7fff715ea000
+[Log:INFO] no unwind info available
+[Log:INFO:ImpactCrashHandler] exiting the crash handler
+[Log:INFO:ImpactSignalHandlerExitAdjustState] transition 4 -> 5
