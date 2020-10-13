@@ -35,6 +35,30 @@ public struct ImpactApplication {
     }
 }
 
+/// Host Environment Details
+///
+/// example:
+/// `[Environment] platform: macOS, arch: x86_64, report_id: c003259d1cbf44f88e8b92f236a0c8b6, install_id: <none>, os_build: 19H2, model: TWFjQm9va1BybzE1LDI=, os_version: 10.15.7, translated: false, impact_version: 0x5`
+public struct ImpactEnvironment {
+    static let prefix = "[Environment] "
+
+    public var architecture: String?
+    public var platform: String?
+    public var osBuild: String?
+    public var osVersion: String?
+    public var model: String?
+
+    public init?(with line: Substring) {
+        guard let entry = ImpactLog.entryDictionary(from: line, with: ImpactEnvironment.prefix) else { return nil }
+
+        self.architecture = entry["arch"]
+        self.platform = entry["platform"]
+        self.osBuild = entry["os_build"]
+        self.osVersion = entry["os_version"]
+        self.model = entry["model"].flatMap({ $0.asBase64EncodedString() })
+    }
+}
+
 extension UUID {
     init?(plainString string: String) {
         guard string.count == 32 else { return nil }
@@ -201,6 +225,7 @@ private extension Array where Element == Substring {
 
 public struct ImpactLog {
     public var application: ImpactApplication?
+    public var environment: ImpactEnvironment?
     public var binaries: [ImpactBinary]
     public var signal: ImpactSignal?
     public var threads: [ImpactThread]
@@ -213,6 +238,9 @@ public struct ImpactLog {
             self.application = ImpactApplication(with: line)
         }
 
+        if let line = lines.removeFirstIfMatches(ImpactEnvironment.prefix) {
+            self.environment = ImpactEnvironment(with: line)
+        }
         var parsedBinaries = [ImpactBinary]()
         var parsedThreads = [ImpactThread]()
         var currentThread: ImpactThread?

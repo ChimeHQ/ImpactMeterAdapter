@@ -22,10 +22,17 @@ class ImpactDiagnosticTests: XCTestCase {
 
         let diagnostic = try XCTUnwrap(payload.crashDiagnostics?[0])
 
+        XCTAssertEqual(diagnostic.metaData.applicationBuildVersion, "1")
+        XCTAssertEqual(diagnostic.metaData.deviceType, "ADP3,2")
+        XCTAssertEqual(diagnostic.metaData.osVersion, "macOS 11.0.0 (20A5299w)")
+        XCTAssertEqual(diagnostic.metaData.platformArchitecture, "arm64")
+//        XCTAssertEqual(diagnostic.metaData.regionFormat, "CA")
+        XCTAssertNil(diagnostic.virtualMemoryRegionInfo)
         XCTAssertEqual(diagnostic.applicationVersion, "1.0")
         XCTAssertEqual(diagnostic.terminationReason, "Namespace SIGNAL, Code 0x6")
-        XCTAssertNil(diagnostic.virtualMemoryRegionInfo)
         XCTAssertEqual(diagnostic.signal, 6)
+//        XCTAssertEqual(diagnostic.exceptionCode, 0)
+//        XCTAssertEqual(diagnostic.exceptionType, 1)
 
         let tree = diagnostic.callStackTree
 
@@ -56,7 +63,7 @@ class ImpactDiagnosticTests: XCTestCase {
     func testParsingImpactJSONOuput() throws {
         let url = try XCTUnwrap(crashLogURL(named: "signal_crash"))
         let impactPayload = try ImpactDiagnosticPayload(contentsOf: url)
-        let jsonData = impactPayload.JSONRepresentation()
+        let jsonData = impactPayload.jsonRepresentation()
 
         let payload = try DiagnosticPayload.from(data: jsonData)
 

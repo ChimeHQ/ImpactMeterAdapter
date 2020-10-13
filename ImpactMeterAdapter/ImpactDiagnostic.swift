@@ -105,18 +105,50 @@ class ImpactCrashDiagnostic: CrashDiagnosticProtocol {
         return log.application?.shortVersion ?? "<unknown>"
     }
 
+    private var normalizedPlatform: String? {
+        guard let platform = log.environment?.platform else {
+            return nil
+        }
+
+        if platform == "iOS" {
+            return "iPhone OS"
+        } else {
+            return platform
+        }
+    }
+
+    private var osVersion: String? {
+        guard
+            let platform = normalizedPlatform,
+            let version = log.environment?.osVersion,
+            let build = log.environment?.osBuild
+        else {
+            return nil
+        }
+
+        return "\(platform) \(version) (\(build))"
+    }
+
+    lazy var internalMetaData: CrashMetaData = {
+        return CrashMetaData(deviceType: log.environment?.model ?? "",
+                             applicationBuildVersion: log.application?.version ?? "",
+                             applicationVersion: applicationVersion,
+                             osVersion: osVersion ?? "",
+                             platformArchitecture: log.environment?.architecture ?? "",
+                             regionFormat: "",
+                             virtualMemoryRegionInfo: nil,
+                             exceptionType: exceptionType?.intValue,
+                             terminationReason: terminationReason,
+                             exceptionCode: exceptionCode?.intValue,
+                             signal: signal?.intValue)
+    }()
+
+    var metaData: MetaDataProtocol {
+        return internalMetaData
+    }
+
     lazy var asCrashDiagnostic: CrashDiagnostic = {
-        let metaData = CrashMetaData(applicationBuildVersion: "",
-                                     applicationVersion: applicationVersion,
-                                     osVersion: "",
-                                     platformArchitecture: "",
-                                     regionFormat: "",
-                                     virtualMemoryRegionInfo: nil,
-                                     exceptionType: exceptionType?.intValue,
-                                     terminationReason: terminationReason,
-                                     exceptionCode: exceptionCode?.intValue,
-                                     signal: signal?.intValue)
-        return CrashDiagnostic(metaData: metaData, callStackTree: internalCallStackTree)
+        return CrashDiagnostic(metaData: internalMetaData, callStackTree: internalCallStackTree)
     }()
 
     func jsonRepresentation() -> Data {
