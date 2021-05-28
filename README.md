@@ -1,8 +1,8 @@
-[![Github CI](https://github.com/ChimeHQ/ImpactMeterAdapter/workflows/CI/badge.svg)](https://github.com/ChimeHQ/ImpactMeterAdapter/actions)
+[![Github CI](https://github.com/stacksift/ImpactMeterAdapter/workflows/CI/badge.svg)](https://github.com/stacksift/ImpactMeterAdapter/actions)
 
 # ImpactMeterAdapter
 
-Convert [Impact](https://github.com/ChimeHQ/Impact) crash reports into a [Meter](https://github.com/ChimeHQ/Meter) diagnostic source.
+Convert [Impact](https://github.com/stacksift/Impact) crash reports into a [Meter](https://github.com/stacksift/Meter) diagnostic source.
 
 ## Integration
 
@@ -10,7 +10,7 @@ Swift Package Manager:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/ChimeHQ/ImpactMeterAdapter.git")
+    .package(url: "https://github.com/stacksift/ImpactMeterAdapter.git")
 ]
 ```
 
@@ -43,10 +43,10 @@ extension ExampleSubscriber: MeterPayloadSubscriber {
 }
 ```
 
-For actually transmitting data back to a server, check out [Wells](https://github.com/ChimeHQ/Wells).
+For actually transmitting data back to a server, check out [Wells](https://github.com/stacksift/Wells).
 
 ## Suggestions or Feedback
 
-We'd love to hear from you! Get in touch via [twitter](https://twitter.com/chimehq), an issue, or a pull request.
+We'd love to hear from you! Get in touch via [twitter](https://twitter.com/stacksift), an issue, or a pull request.
 
 Please note that this project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
