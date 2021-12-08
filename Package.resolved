@@ -14,9 +14,9 @@
         "package": "Meter",
         "repositoryURL": "https://github.com/ChimeHQ/Meter",
         "state": {
-          "branch": null,
-          "revision": "898fc43f5344fb43d36c181e043f6fc4da08b8c4",
-          "version": "0.2.0"
+          "branch": "main",
+          "revision": "e0158cac1750c2d215ab7c617e4910f187c7bab6",
+          "version": null
         }
       }
     ]

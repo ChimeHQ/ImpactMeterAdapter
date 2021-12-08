@@ -2,7 +2,7 @@
 
 # ImpactMeterAdapter
 
-Convert [Impact](https://github.com/stacksift/Impact) crash reports into a [Meter](https://github.com/stacksift/Meter) diagnostic source.
+Convert [Impact](https://github.com/ChimeHQ/Impact) crash reports into a [Meter](https://github.com/ChimeHQ/Meter) diagnostic source.
 
 ## Integration
 
@@ -10,7 +10,7 @@ Swift Package Manager:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/ChimeHQ/ImpactMeterAdapter.git")
+    .package(url: "https://github.com/ChimeHQ/ImpactMeterAdapter")
 ]
 ```
 
@@ -43,7 +43,7 @@ extension ExampleSubscriber: MeterPayloadSubscriber {
 }
 ```
 
-For actually transmitting data back to a server, check out [Wells](https://github.com/stacksift/Wells).
+For actually transmitting data back to a server, check out [Wells](https://github.com/ChimeHQ/Wells).
 
 ## Suggestions or Feedback
 

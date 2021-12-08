@@ -38,11 +38,11 @@ class ImpactDiagnosticTests: XCTestCase {
 
         XCTAssertEqual(tree.callStacks.count, 6)
 
-        XCTAssertFalse(tree.callStacks[1].threadAttributed)
+        XCTAssertTrue(tree.callStacks[1].threadAttributed == false)
 
         let crashedStack = tree.callStacks[0]
 
-        XCTAssertTrue(crashedStack.threadAttributed)
+        XCTAssertTrue(crashedStack.threadAttributed == true)
 
         let frames = crashedStack.frames
         XCTAssertEqual(frames.count, 18)

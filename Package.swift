@@ -1,4 +1,4 @@
-// swift-tools-version:5.0
+// swift-tools-version:5.3
 
 import PackageDescription
 
@@ -9,11 +9,15 @@ let package = Package(
         .library(name: "ImpactMeterAdapter", targets: ["ImpactMeterAdapter"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/ChimeHQ/Meter", from: "0.2.0"),
+        .package(url: "https://github.com/ChimeHQ/Meter", .branch("main")),
         .package(url: "https://github.com/ChimeHQ/Impact.git", from: "0.3.1"),
     ],
     targets: [
-        .target(name: "ImpactMeterAdapter", dependencies: ["Impact", "Meter"], path: "ImpactMeterAdapter/"),
-        .testTarget(name: "ImpactMeterAdapterTests", dependencies: ["ImpactMeterAdapter"], path: "ImpactMeterAdapterTests/"),
+        .target(name: "ImpactMeterAdapter", dependencies: ["Impact", "Meter"]),
+        .testTarget(name: "ImpactMeterAdapterTests",
+                    dependencies: ["ImpactMeterAdapter"],
+                    resources: [
+                        .copy("Resources"),
+                    ]),
     ]
 )

@@ -32,7 +32,10 @@ class ImpactDiagnosticPayload: DiagnosticPayloadProtocol {
 
         let payload = DiagnosticPayload(timeStampBegin: timeStampBegin,
                                         timeStampEnd: timeStampEnd,
-                                        crashDiagnostics: diagnostics)
+                                        crashDiagnostics: diagnostics,
+                                        hangDiagnostics: nil,
+                                        cpuExceptionDiagnostics: nil,
+                                        diskWriteExceptionDiagnostics: nil)
         
         return payload.jsonRepresentation()
     }
@@ -51,6 +54,18 @@ class ImpactDiagnosticPayload: DiagnosticPayloadProtocol {
         }
 
         return []
+    }
+
+    var hangDiagnostics: [HangDiagnostic]? {
+        return nil
+    }
+
+    var cpuExceptionDiagnostics: [CPUExceptionDiagnostic]? {
+        return nil
+    }
+
+    var diskWriteExceptionDiagnostics: [DiskWriteExceptionDiagnostic]? {
+        return nil
     }
 }
 

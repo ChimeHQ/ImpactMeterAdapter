@@ -8,16 +8,14 @@ on:
     branches:
       - '**'
 
+env:
+  DEVELOPER_DIR: /Applications/Xcode_13.2.app/Contents/Developer
+
 jobs:
   test:
-    name: Test on destination ${{ matrix.destination }}
-    runs-on: macOS-latest
-    strategy:
-      matrix:
-        destination: ["platform=macOS", "platform=iOS Simulator,name=iPhone 8", "platform=tvOS Simulator,name=Apple TV"]
+    name: Test with Swift
+    runs-on: macOS-11
     steps:
       - uses: actions/checkout@v1
-      - name: update submodules
-        run: git submodule update --init
-      - name: xcodebuild test ${{ matrix.destination }}
-        run: set -o pipefail && xcodebuild test -scheme ImpactMeterAdapter -destination "${{ matrix.destination }}" | xcpretty
+      - name: swift test
+        run: swift test
