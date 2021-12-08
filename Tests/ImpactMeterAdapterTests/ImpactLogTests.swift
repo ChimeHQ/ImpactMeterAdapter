@@ -10,7 +10,7 @@ import XCTest
 
 class ImpactLogTests: XCTestCase {
     private func crashLogURL(named name: String) -> URL? {
-        return Bundle(for: ImpactLogTests.self).url(forResource: name, withExtension: "impactlog")
+        return Bundle.module.url(forResource: name, withExtension: "impactlog")
     }
 
     func testNonCrashLog() throws {

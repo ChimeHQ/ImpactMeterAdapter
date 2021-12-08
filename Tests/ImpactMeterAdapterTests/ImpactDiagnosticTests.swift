@@ -11,7 +11,7 @@ import Meter
 
 class ImpactDiagnosticTests: XCTestCase {
     private func crashLogURL(named name: String) -> URL? {
-        return Bundle(for: ImpactDiagnosticTests.self).url(forResource: name, withExtension: "impactlog")
+        return Bundle.module.url(forResource: name, withExtension: "impactlog")
     }
 
     func testDiagnosticPayloadTransformation() throws {
